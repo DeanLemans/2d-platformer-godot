@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696793040
+::res://::1696796826
 icon.svg::CompressedTexture2D::121988210331657489::1696787422::1696787430::1::::<><>::
+README.md::TextFile::-1::1696796738::0::1::::<><>::
 ::res://art/::1696788399
 ::res://art/Asset Packs 1-3 (final)/::1696788399
 ::res://art/Asset Packs 1-3 (final)/Asset Pack-V1/::1696793040
@@ -51,5 +52,8 @@ player push idle 48x48.png::CompressedTexture2D::5464478142940827271::1696788399
 PlayerWalk 48x48.png::CompressedTexture2D::6265057655453408302::1696788399::1696788408::1::::<><>::
 ::res://art/Asset Packs 1-3 (final)/Asset Pack-V3/Sword Stab/::1696788408
 Player Sword Stab 96x48.png::CompressedTexture2D::8736117326259455374::1696788399::1696788408::1::::<><>::
-::res://Levels/::1696788667
-test_level.tscn::PackedScene::1728691544179147654::1696788667::0::1::::<><>::
+::res://Character/::1696796122
+player.gd::GDScript::-1::1696796008::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::7693647134561359666::1696796122::0::1::::<><>::res://Character/player.gd<>uid://go13c0ceg0ir::::res://art/Asset Packs 1-3 (final)/Asset Pack-V1/Sprite Sheets/Character Idle 48x48.png
+::res://Levels/::1696795425
+test_level.tscn::PackedScene::1728691544179147654::1696795425::0::1::::<><>::uid://cexex4yie7obb::::res://art/Asset Packs 1-3 (final)/Asset Pack-V1/Tilemap/Basic Tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn
