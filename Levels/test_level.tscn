@@ -223,3 +223,4 @@ layer_0/tile_data = PackedInt32Array(-1, 131072, 4, 65535, 131072, 5, -65536, 19
 
 [node name="Player" parent="." instance=ExtResource("2_jx2wt")]
 position = Vector2(-147, -75)
+jump_velocity = -230.0
