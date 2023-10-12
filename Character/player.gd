@@ -5,9 +5,13 @@ extends CharacterBody2D
 @export var jump_velocity : float = -150.0
 @export var double_jump_velocity : float = -150
 
+@onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
+
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var has_double_jumped : bool = false
+var animation_locked : bool = false
+var direction : Vector2 = Vector2.ZERO
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -28,10 +32,19 @@ func _physics_process(delta):
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction = Input.get_axis("left", "right")
+	direction = Input.get_vector("left", "right", "up", "down")
+	
 	if direction:
-		velocity.x = direction * speed
+		velocity.x = direction.x * speed
 	else:
 		velocity.x = move_toward(velocity.x, 0, speed)
 
 	move_and_slide()
+	update_animation()
+
+func update_animation():
+	if not animation_locked:
+		if direction.x != 0:
+			animated_sprite.play("run")
+		else:
+			animated_sprite.play("idle")
