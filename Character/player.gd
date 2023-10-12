@@ -24,10 +24,10 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("jump"):
 		if is_on_floor():
 			#normal jump from floor
-			velocity.y = jump_velocity
+			jump()
 		elif not has_double_jumped:
 			#double jump in air
-			velocity.y += double_jump_velocity
+			velocity.y = double_jump_velocity
 			has_double_jumped = true
 
 	# Get the input direction and handle the movement/deceleration.
@@ -41,6 +41,7 @@ func _physics_process(delta):
 
 	move_and_slide()
 	update_animation()
+	update_facing_direction()
 
 func update_animation():
 	if not animation_locked:
@@ -48,3 +49,14 @@ func update_animation():
 			animated_sprite.play("run")
 		else:
 			animated_sprite.play("idle")
+
+func update_facing_direction():
+	if direction.x > 0:
+		animated_sprite.flip_h = false
+	elif direction.x < 0:
+		animated_sprite.flip_h = true
+
+func jump():
+	velocity.y = jump_velocity
+	animated_sprite.play("jump_start")
+	animation_locked = true

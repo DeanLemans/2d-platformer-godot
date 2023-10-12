@@ -239,7 +239,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7byrd")
 }],
-"loop": true,
+"loop": false,
 "name": &"jump_end",
 "speed": 7.0
 }, {
@@ -253,7 +253,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xbd35")
 }],
-"loop": true,
+"loop": false,
 "name": &"jump_start",
 "speed": 7.0
 }, {
@@ -296,7 +296,7 @@ script = ExtResource("1_vmu8u")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
-animation = &"idle"
+animation = &"jump_end"
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
