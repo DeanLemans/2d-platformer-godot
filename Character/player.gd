@@ -12,14 +12,20 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var has_double_jumped : bool = false
 var animation_locked : bool = false
 var direction : Vector2 = Vector2.ZERO
+var in_air : bool = false
 
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y += gravity * delta
+		in_air = true
 	else:
 		has_double_jumped = false
+		
+		if in_air == true:
+			land()
 
+		in_air = false
 	# Handle Jump.
 	if Input.is_action_just_pressed("jump"):
 		if is_on_floor():
@@ -28,11 +34,15 @@ func _physics_process(delta):
 		elif not has_double_jumped:
 			#double jump in air
 			velocity.y = double_jump_velocity
+			animated_sprite.play("jump_air")
 			has_double_jumped = true
+			
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	direction = Input.get_vector("left", "right", "up", "down")
+	
+
 	
 	if direction:
 		velocity.x = direction.x * speed
@@ -46,9 +56,10 @@ func _physics_process(delta):
 func update_animation():
 	if not animation_locked:
 		if direction.x != 0:
-			animated_sprite.play("run")
+			animated_sprite.play("walk")
 		else:
 			animated_sprite.play("idle")
+		
 
 func update_facing_direction():
 	if direction.x > 0:
@@ -60,3 +71,19 @@ func jump():
 	velocity.y = jump_velocity
 	animated_sprite.play("jump_start")
 	animation_locked = true
+
+func land():
+	animated_sprite.play("land")
+	animation_locked = true
+
+
+func _on_animated_sprite_2d_animation_finished():
+	if(animated_sprite.animation == "land"):
+		animation_locked = false
+
+
+func _on_animated_sprite_2d_animation_changed():
+	if Input.is_action_pressed("run"):
+			$AnimatedSprite2D.play("run")
+			animation_locked = false
+		
