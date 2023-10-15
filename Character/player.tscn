@@ -288,7 +288,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"land",
-"speed": 10.0
+"speed": 20.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -360,7 +360,7 @@ double_jump_velocity = -195.0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
-animation = &"run"
+animation = &"land"
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

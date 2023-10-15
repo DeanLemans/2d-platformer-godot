@@ -42,8 +42,6 @@ func _physics_process(delta):
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	direction = Input.get_vector("left", "right", "up", "down")
 	
-
-	
 	if direction:
 		velocity.x = direction.x * speed
 	else:
@@ -60,7 +58,6 @@ func update_animation():
 		else:
 			animated_sprite.play("idle")
 		
-
 func update_facing_direction():
 	if direction.x > 0:
 		animated_sprite.flip_h = false
@@ -76,14 +73,6 @@ func land():
 	animated_sprite.play("land")
 	animation_locked = true
 
-
 func _on_animated_sprite_2d_animation_finished():
 	if(animated_sprite.animation == "land"):
 		animation_locked = false
-
-
-func _on_animated_sprite_2d_animation_changed():
-	if Input.is_action_pressed("run"):
-			$AnimatedSprite2D.play("run")
-			animation_locked = false
-		
