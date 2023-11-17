@@ -13,6 +13,7 @@ var has_double_jumped : bool = false
 var animation_locked : bool = false
 var direction : Vector2 = Vector2.ZERO
 var in_air : bool = false
+var is_running : bool = false
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -50,6 +51,7 @@ func _physics_process(delta):
 	move_and_slide()
 	update_animation()
 	update_facing_direction()
+	
 
 func update_animation():
 	if not animation_locked:
@@ -76,3 +78,6 @@ func land():
 func _on_animated_sprite_2d_animation_finished():
 	if(animated_sprite.animation == "land"):
 		animation_locked = false
+		
+func _on_animated_sprite_2d_animation_changed():
+	pass
