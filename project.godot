@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="2d platformer"
-run/main_scene="res://Levels/test_level.tscn"
+run/main_scene="res://Scenes/mainMenu.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
 
