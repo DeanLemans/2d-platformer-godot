@@ -1,2 +1,3 @@
 res://Character/enemy.tscn
-res://Scenes/mainMenu.tscn
+res://Character/enemy.gd
+res://Scenes/test_level.tscn

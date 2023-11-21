@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://yvnkdr42radi"]
+[gd_scene load_steps=6 format=3 uid="uid://yvnkdr42radi"]
 
 [ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://Asset Pack/Tilemap/Basic Tilemap.png" id="1_njwjh"]
 [ext_resource type="PackedScene" uid="uid://dhu4ikmaqqcuc" path="res://Character/player.tscn" id="2_jffi6"]
+[ext_resource type="PackedScene" uid="uid://4xkb7vywceh" path="res://Character/enemy.tscn" id="3_ocejh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jxsn7"]
 texture = ExtResource("1_njwjh")
@@ -238,3 +239,5 @@ drag_left_margin = 0.15
 drag_top_margin = 0.15
 drag_right_margin = 0.15
 drag_bottom_margin = 0.15
+
+[node name="Enemy" parent="." instance=ExtResource("3_ocejh")]
