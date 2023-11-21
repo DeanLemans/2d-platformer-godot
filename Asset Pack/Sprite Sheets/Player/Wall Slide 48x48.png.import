@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mwfv2ckrr7o4"
-path="res://.godot/imported/Wall Slide 48x48.png-4ae40a44b4651e32dd3f0d29da83e1e1.ctex"
+path="res://.godot/imported/Wall Slide 48x48.png-dd44846f15ca0bd2e6d42d4c982e39e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset Pack/Sprite Sheets/Wall Slide 48x48.png"
-dest_files=["res://.godot/imported/Wall Slide 48x48.png-4ae40a44b4651e32dd3f0d29da83e1e1.ctex"]
+source_file="res://Asset Pack/Sprite Sheets/Player/Wall Slide 48x48.png"
+dest_files=["res://.godot/imported/Wall Slide 48x48.png-dd44846f15ca0bd2e6d42d4c982e39e8.ctex"]
 
 [params]
 

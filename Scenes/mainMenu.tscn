@@ -6,18 +6,19 @@
 script = ExtResource("1_n08vo")
 
 [node name="Play" type="Button" parent="."]
-offset_left = 430.0
-offset_top = 100.0
-offset_right = 730.0
-offset_bottom = 275.0
+offset_left = 325.0
+offset_top = 101.0
+offset_right = 518.0
+offset_bottom = 212.0
 tooltip_text = "fucking play dipshit"
-text = "Play"
+text = "ambitie project
+(button finished)"
 
 [node name="Quit" type="Button" parent="."]
-offset_left = 430.0
-offset_top = 350.0
-offset_right = 730.0
-offset_bottom = 525.0
+offset_left = 487.0
+offset_top = 483.0
+offset_right = 676.0
+offset_bottom = 602.0
 tooltip_text = "fucking pussy"
 text = "Quit"
 
@@ -27,6 +28,15 @@ offset_top = 20.0
 offset_right = 721.0
 offset_bottom = 56.0
 text = "game voor glow en ambitie project."
+
+[node name="Button" type="Button" parent="."]
+offset_left = 679.0
+offset_top = 100.0
+offset_right = 854.0
+offset_bottom = 192.0
+text = "glow(projectie mapping)
+gamemode
+{unfinished}"
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

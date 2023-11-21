@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://yvnkdr42radi"]
 
-[ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://art/Asset Packs 1-3 (final)/Asset Pack-V1/Tilemap/Basic Tilemap.png" id="1_njwjh"]
+[ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://Asset Pack/Tilemap/Basic Tilemap.png" id="1_njwjh"]
 [ext_resource type="PackedScene" uid="uid://dhu4ikmaqqcuc" path="res://Character/player.tscn" id="2_jffi6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jxsn7"]

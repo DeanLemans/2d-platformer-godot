@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0puhw6oel88m"
-path="res://.godot/imported/run cycle 48x48.png-5f6a7141863c62d6f6fd67c4a4b33b09.ctex"
+path="res://.godot/imported/run cycle 48x48.png-4f7f79d467cb3d2d9b64d91967bdc879.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset Pack/Sprite Sheets/run cycle 48x48.png"
-dest_files=["res://.godot/imported/run cycle 48x48.png-5f6a7141863c62d6f6fd67c4a4b33b09.ctex"]
+source_file="res://Asset Pack/Sprite Sheets/Player/run cycle 48x48.png"
+dest_files=["res://.godot/imported/run cycle 48x48.png-4f7f79d467cb3d2d9b64d91967bdc879.ctex"]
 
 [params]
 

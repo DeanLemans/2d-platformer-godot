@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqa3a572vqivt"
-path="res://.godot/imported/wall land 48x48.png-16817d780ab5683436a5dd70a746289b.ctex"
+uid="uid://duqj4qqowpmyw"
+path="res://.godot/imported/player jump 48x48.png-294c2dab74b105cfde17e7a528ab9aec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset Pack/Sprite Sheets/wall land 48x48.png"
-dest_files=["res://.godot/imported/wall land 48x48.png-16817d780ab5683436a5dd70a746289b.ctex"]
+source_file="res://Asset Pack/Sprite Sheets/Enemy/player jump 48x48.png"
+dest_files=["res://.godot/imported/player jump 48x48.png-294c2dab74b105cfde17e7a528ab9aec.ctex"]
 
 [params]
 
