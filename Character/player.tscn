@@ -363,7 +363,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jd3d0")
 }],
-"loop": false,
+"loop": true,
 "name": &"jump_air",
 "speed": 10.0
 }, {
@@ -471,9 +471,8 @@ double_jump_velocity = -195.0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
-animation = &"jump_loop"
+animation = &"jump_air"
 autoplay = "jump_loop"
-frame_progress = 0.293215
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

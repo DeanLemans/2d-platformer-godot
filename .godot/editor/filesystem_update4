@@ -3,3 +3,5 @@ res://Scenes/mainMenu.tscn
 res://Character/player.tscn
 res://Character/enemy.tscn
 res://Character/player.gd
+res://Scenes/glowLevel.tscn
+res://Scenes/mainMenu.gd

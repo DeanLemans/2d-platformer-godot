@@ -36,7 +36,7 @@ offset_right = 874.0
 offset_bottom = 209.0
 text = "glow(projectie mapping)
 gamemode
-{unfinished}"
+fixed camera"
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
