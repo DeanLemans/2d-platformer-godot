@@ -43,7 +43,7 @@ func _physics_process(delta):
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	direction = Input.get_vector("left", "right", "up", "down")
 	
-	if direction:
+	if direction.x != 0 && animated_sprite.animation != "land":
 		velocity.x = direction.x * speed
 	else:
 		velocity.x = move_toward(velocity.x, 0, speed)
@@ -55,10 +55,13 @@ func _physics_process(delta):
 
 func update_animation():
 	if not animation_locked:
-		if direction.x != 0:
-			animated_sprite.play("walk")
+		if not is_on_floor():
+			animated_sprite.play("jump_loop")
 		else:
-			animated_sprite.play("idle")
+			if direction.x != 0:
+				animated_sprite.play("walk")
+			else:
+				animated_sprite.play("idle")
 		
 func update_facing_direction():
 	if direction.x > 0:

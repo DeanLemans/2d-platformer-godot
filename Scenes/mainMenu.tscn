@@ -32,8 +32,8 @@ text = "game voor glow en ambitie project."
 [node name="Button" type="Button" parent="."]
 offset_left = 679.0
 offset_top = 100.0
-offset_right = 854.0
-offset_bottom = 192.0
+offset_right = 874.0
+offset_bottom = 209.0
 text = "glow(projectie mapping)
 gamemode
 {unfinished}"
