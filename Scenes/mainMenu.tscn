@@ -5,7 +5,7 @@
 [node name="Main" type="Node2D"]
 script = ExtResource("1_n08vo")
 
-[node name="Play" type="Button" parent="."]
+[node name="playAmbitie" type="Button" parent="."]
 offset_left = 325.0
 offset_top = 101.0
 offset_right = 518.0
@@ -29,7 +29,7 @@ offset_right = 721.0
 offset_bottom = 56.0
 text = "game voor glow en ambitie project."
 
-[node name="Button" type="Button" parent="."]
+[node name="playGlow" type="Button" parent="."]
 offset_left = 679.0
 offset_top = 100.0
 offset_right = 874.0
@@ -38,5 +38,6 @@ text = "glow(projectie mapping)
 gamemode
 fixed camera"
 
-[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="playAmbitie" to="." method="_on_playGlow_pressed"]
+[connection signal="pressed" from="playAmbitie" to="." method="_on_playAmbitie_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
