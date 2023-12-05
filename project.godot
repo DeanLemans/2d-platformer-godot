@@ -13,6 +13,7 @@ config_version=5
 config/name="2d platformer"
 run/main_scene="res://Scenes/mainMenu.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
+boot_splash/image="res://Asset Pack/Tilemap/2.png"
 config/icon="res://icon.svg"
 
 [input]

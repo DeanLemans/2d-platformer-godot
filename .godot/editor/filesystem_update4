@@ -1,6 +1,3 @@
-res://Scenes/mainMenu.tscn
-res://Scenes/test_level.tscn
 res://Character/player.tscn
 res://Scenes/glowLevel.tscn
-res://Scenes/mainMenu.gd
-res://Scenes/ambitieLevel.tscn
+res://Scenes/mainMenu.tscn

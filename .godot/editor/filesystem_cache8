@@ -1,46 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701774135
+::res://::1701776481
 icon.svg::CompressedTexture2D::121988210331657489::1700126821::1700126821::1::::<><>::
 README.md::TextFile::-1::1700570174::0::1::::<><>::
-::res://Asset Pack/::1700222067
-::res://Asset Pack/Aseprite Files/::1700126821
-::res://Asset Pack/Aseprite Files/Player/::1700126821
-::res://Asset Pack/Aseprite Files/Tilemap/::1700126821
-::res://Asset Pack/Asset Pack-2/::1700126821
-::res://Asset Pack/Asset Pack-2/Air Spin/::1700222177
-player air spin 48x48.png::CompressedTexture2D::6234810471651207760::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-2/Crouch-Idle/::1700222177
-Player Crouch-Idle 48x48.png::CompressedTexture2D::5090108289709239483::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-2/Crouch-Walk/::1700222177
-player crouch-walk 48x48.png::CompressedTexture2D::1487076569647441143::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-2/Ledge Grab-Climb/::1700222177
-player ledge climb 48x48.png::CompressedTexture2D::6701896975462450032::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-2/Player Roll/::1700222177
-Player Roll 48x48.png::CompressedTexture2D::5007413155762904139::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-2/Pull/::1700222177
-Player Pull 48x48.png::CompressedTexture2D::5695686854887887061::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-2/Push/::1700222177
-player push 48x48.png::CompressedTexture2D::2424468441569568275::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/::1700126821
-::res://Asset Pack/Asset Pack-3/Basic Sword Attack 1/::1700222177
-player sword atk 64x64.png::CompressedTexture2D::4149802382501117369::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/Player Death/::1700222177
-Player Death 64x64.png::CompressedTexture2D::4304578194359194153::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/Player Hurt-Damaged/::1700222177
-Player Hurt 48x48.png::CompressedTexture2D::1568161615252512786::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/Player Punch/::1700222177
-Player Punch 64x64.png::CompressedTexture2D::8152701106521008238::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/Player Sword Idle/::1700222177
-Player Sword Idle 48x48.png::CompressedTexture2D::8377279407853427262::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/Player Sword Run/::1700222177
-Player Sword Run 48x48.png::CompressedTexture2D::6249690161376058076::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/PlayerIdlePushPull/::1700222177
-player push idle 48x48.png::CompressedTexture2D::5464478142940827271::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/PlayerWalk/::1700222177
-PlayerWalk 48x48.png::CompressedTexture2D::6265057655453408302::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Asset Pack-3/Sword Stab/::1700222177
-Player Sword Stab 96x48.png::CompressedTexture2D::8736117326259455374::1700126821::1700222177::1::::<><>::
-::res://Asset Pack/Sprite Sheets/::1700560142
+::res://Asset Pack/::1701776481
+::res://Asset Pack/Sprite Sheets/::1701776481
+::res://Asset Pack/Sprite Sheets/Air Spin/::1701776448
+player air spin 48x48.png::CompressedTexture2D::6234810471651207760::1700126821::1701776481::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Basic Sword Attack 1/::1701776424
+player sword atk 64x64.png::CompressedTexture2D::4149802382501117369::1700126821::1701776424::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Crouch-Idle/::1701776464
+Player Crouch-Idle 48x48.png::CompressedTexture2D::5090108289709239483::1700126821::1701776464::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Crouch-Walk/::1701776463
+player crouch-walk 48x48.png::CompressedTexture2D::1487076569647441143::1700126821::1701776463::1::::<><>::
 ::res://Asset Pack/Sprite Sheets/Enemy/::1700563623
 Enemy Idle 48x48.png::CompressedTexture2D::5584888475738190072::1700563609::1700563623::1::::<><>::
 player jump 48x48.png::CompressedTexture2D::8596668074619619982::1700126821::1700560324::1::::<><>::
@@ -48,6 +19,8 @@ player land 48x48.png::CompressedTexture2D::1336890945410808128::1700126821::170
 run cycle 48x48.png::CompressedTexture2D::1786914801718922762::1700126821::1700560324::1::::<><>::
 wall land 48x48.png::CompressedTexture2D::8283985251474986285::1700126821::1700560324::1::::<><>::
 Wall Slide 48x48.png::CompressedTexture2D::888024942579379153::1700126821::1700560324::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Ledge Grab-Climb/::1701776461
+player ledge climb 48x48.png::CompressedTexture2D::6701896975462450032::1700126821::1701776461::1::::<><>::
 ::res://Asset Pack/Sprite Sheets/Player/::1701694306
 Character Idle 48x48.png::CompressedTexture2D::451663138189588213::1698219782::1701694306::1::::<><>::
 player jump 48x48.png::CompressedTexture2D::8596668074619619982::1700126821::1700560324::1::::<><>::
@@ -55,19 +28,42 @@ player land 48x48.png::CompressedTexture2D::1336890945410808128::1700126821::170
 run cycle 48x48.png::CompressedTexture2D::1786914801718922762::1700126821::1700560324::1::::<><>::
 wall land 48x48.png::CompressedTexture2D::8283985251474986285::1700126821::1700560324::1::::<><>::
 Wall Slide 48x48.png::CompressedTexture2D::888024942579379153::1700126821::1700560324::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Player Death/::1701776423
+Player Death 64x64.png::CompressedTexture2D::4304578194359194153::1700126821::1701776423::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Player Hurt-Damaged/::1701776421
+Player Hurt 48x48.png::CompressedTexture2D::1568161615252512786::1700126821::1701776421::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Player Punch/::1701776420
+Player Punch 64x64.png::CompressedTexture2D::8152701106521008238::1700126821::1701776420::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Player Roll/::1701776460
+Player Roll 48x48.png::CompressedTexture2D::5007413155762904139::1700126821::1701776460::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Player Sword Idle/::1701776418
+Player Sword Idle 48x48.png::CompressedTexture2D::8377279407853427262::1700126821::1701776418::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Player Sword Run/::1701776417
+Player Sword Run 48x48.png::CompressedTexture2D::6249690161376058076::1700126821::1701776417::1::::<><>::
+::res://Asset Pack/Sprite Sheets/PlayerIdlePushPull/::1701776415
+player push idle 48x48.png::CompressedTexture2D::5464478142940827271::1700126821::1701776415::1::::<><>::
+::res://Asset Pack/Sprite Sheets/PlayerWalk/::1701776414
+PlayerWalk 48x48.png::CompressedTexture2D::6265057655453408302::1700126821::1701776414::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Pull/::1701776459
+Player Pull 48x48.png::CompressedTexture2D::5695686854887887061::1700126821::1701776459::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Push/::1701776457
+player push 48x48.png::CompressedTexture2D::2424468441569568275::1700126821::1701776457::1::::<><>::
+::res://Asset Pack/Sprite Sheets/Sword Stab/::1701776409
+Player Sword Stab 96x48.png::CompressedTexture2D::8736117326259455374::1700126821::1701776409::1::::<><>::
 ::res://Asset Pack/Tilemap/::1701704369
 2.png::CompressedTexture2D::8163616998748422758::1701704359::1701704369::1::::<><>::
 160x160 background tilemap.png::CompressedTexture2D::6019358502869098954::1700126821::1700222177::1::::<><>::
 Basic Tilemap.png::CompressedTexture2D::5101362932135147803::1700126821::1700222177::1::::<><>::
 blocks.png::CompressedTexture2D::8050389025018509453::1701703589::1701703616::1::::<><>::
 Masterbord.png::CompressedTexture2D::702231044339609312::1701702240::1701702778::1::::<><>::
-::res://Character/::1701705207
+::res://Character/::1701776481
 enemy.gd::GDScript::-1::1700580790::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::61281406584585703::1701694174::0::1::::<><>::uid://cltmkdupe6nqm::::res://Asset Pack/Sprite Sheets/Enemy/Enemy Idle 48x48.png<>res://Character/enemy.gd
+enemy.tscn::PackedScene::61281406584585703::1701694174::0::1::::<><>::uid://cltmkdupe6nqm
 player.gd::GDScript::-1::1701701948::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::7693647134561359666::1701705207::0::1::::<><>::res://Character/player.gd<>uid://go13c0ceg0ir::::res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png<>uid://cu3gogxojrug3::::res://Asset Pack/Asset Pack-2/Air Spin/player air spin 48x48.png<>uid://duqj4qqowpmyw::::res://Asset Pack/Sprite Sheets/Player/player jump 48x48.png<>uid://tbunsys8mub5::::res://Asset Pack/Sprite Sheets/Player/player land 48x48.png<>uid://0puhw6oel88m::::res://Asset Pack/Sprite Sheets/Enemy/run cycle 48x48.png
-::res://Scenes/::1701705310
-glowLevel.tscn::PackedScene::7275862018643483559::1701705207::0::1::::<><>::uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn
-mainMenu.gd::GDScript::-1::1701705310::0::1::::<>Node2D<>::
-mainMenu.tscn::PackedScene::8825483887600409415::1701705310::0::1::::<><>::res://Scenes/mainMenu.gd
-test_level.tscn::PackedScene::1728691544179147654::1701705206::0::1::::<><>::uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png
+player.tscn::PackedScene::7693647134561359666::1701776481::0::1::::<><>::res://Character/player.gd<>uid://go13c0ceg0ir::::res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png<>uid://duqj4qqowpmyw::::res://Asset Pack/Sprite Sheets/Player/player jump 48x48.png<>uid://cu3gogxojrug3::::res://Asset Pack/Sprite Sheets/Air Spin/player air spin 48x48.png<>uid://tbunsys8mub5::::res://Asset Pack/Sprite Sheets/Player/player land 48x48.png<>uid://0puhw6oel88m::::res://Asset Pack/Sprite Sheets/Player/run cycle 48x48.png
+::res://Scenes/::1701776120
+ambitieLevel.tscn::PackedScene::5028333640433022473::1701776120::0::1::::<><>::uid://cexex4yie7obb
+glowLevel.tscn::PackedScene::7275862018643483559::1701776120::0::1::::<><>::uid://cexex4yie7obb
+mainMenu.gd::GDScript::-1::1701775444::0::1::::<>Node2D<>::
+mainMenu.tscn::PackedScene::8825483887600409415::1701776120::0::1::::<><>::res://Scenes/mainMenu.gd
+test_level.tscn::PackedScene::1728691544179147654::1701775446::0::1::::<><>::uid://cexex4yie7obb
