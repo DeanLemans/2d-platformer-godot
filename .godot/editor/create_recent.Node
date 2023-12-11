@@ -1,10 +1,10 @@
+Camera2D
+Button
 AnimatedSprite2D
 CharacterBody2D
 Area2D
-Button
 CollisionShape2D
 RigidBody2D
 TextEdit
 RemoteTransform2D
-Camera2D
 TileMap

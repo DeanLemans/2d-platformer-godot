@@ -1,4 +1,4 @@
-[gd_scene load_steps=69 format=3 uid="uid://dhu4ikmaqqcuc"]
+[gd_scene load_steps=70 format=3 uid="uid://dhu4ikmaqqcuc"]
 
 [ext_resource type="Script" path="res://Character/player.gd" id="1_vmu8u"]
 [ext_resource type="Texture2D" uid="uid://go13c0ceg0ir" path="res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png" id="1_x3mr8"]
@@ -151,21 +151,25 @@ region = Rect2(192, 0, 48, 48)
 atlas = ExtResource("3_hpniu")
 region = Rect2(240, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_w5y6w"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_ucici"]
 atlas = ExtResource("3_hpniu")
 region = Rect2(0, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_kd6cp"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_e4ck5"]
 atlas = ExtResource("3_hpniu")
 region = Rect2(48, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_cwoqg"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_vuuw2"]
 atlas = ExtResource("3_hpniu")
 region = Rect2(96, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_p2mr1"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_6w3ea"]
 atlas = ExtResource("3_hpniu")
 region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3gybu"]
+atlas = ExtResource("3_hpniu")
+region = Rect2(192, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_67aj5"]
 atlas = ExtResource("3_5aktd")
@@ -369,20 +373,23 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_w5y6w")
+"texture": SubResource("AtlasTexture_ucici")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_kd6cp")
+"texture": SubResource("AtlasTexture_e4ck5")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cwoqg")
+"texture": SubResource("AtlasTexture_vuuw2")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_p2mr1")
+"texture": SubResource("AtlasTexture_6w3ea")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3gybu")
 }],
 "loop": true,
 "name": &"jump_loop",
-"speed": 10.0
+"speed": 11.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -473,6 +480,7 @@ position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
 animation = &"jump_air"
 autoplay = "jump_loop"
+frame_progress = 0.140566
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

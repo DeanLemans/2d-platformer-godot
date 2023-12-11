@@ -22,7 +22,6 @@ func _physics_process(delta):
 		in_air = true
 	else:
 		has_double_jumped = false
-		
 		if in_air == true:
 			land()
 
@@ -62,6 +61,7 @@ func update_animation():
 				animated_sprite.play("walk")
 			else:
 				animated_sprite.play("idle")
+				
 		
 func update_facing_direction():
 	if direction.x > 0:
@@ -76,10 +76,12 @@ func jump():
 
 func land():
 	animated_sprite.play("land")
-	animation_locked = true
+	animation_locked = false
 
 func _on_animated_sprite_2d_animation_finished():
 	if(animated_sprite.animation == "land"):
+		animation_locked = false
+	elif(animated_sprite.animation == "jump_start"):
 		animation_locked = false
 		
 func _on_animated_sprite_2d_animation_changed():
