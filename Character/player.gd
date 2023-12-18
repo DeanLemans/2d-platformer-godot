@@ -33,9 +33,8 @@ func _physics_process(delta):
 			jump()
 		elif not has_double_jumped:
 			#double jump in air
-			velocity.y = double_jump_velocity
-			animated_sprite.play("jump_air")
-			has_double_jumped = true
+			double_jump()
+			
 			
 
 	# Get the input direction and handle the movement/deceleration.
@@ -73,6 +72,12 @@ func jump():
 	velocity.y = jump_velocity
 	animated_sprite.play("jump_start")
 	animation_locked = true
+
+func double_jump():
+	velocity.y = double_jump_velocity
+	animated_sprite.play("jump_loop")
+	animation_locked = true
+	has_double_jumped = true
 
 func land():
 	animated_sprite.play("land")
