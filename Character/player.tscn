@@ -478,9 +478,10 @@ double_jump_velocity = -195.0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
-animation = &"jump_air"
+animation = &"idle"
 autoplay = "jump_loop"
-frame_progress = 0.140566
+frame = 4
+frame_progress = 0.517693
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

@@ -84,9 +84,7 @@ func land():
 	animation_locked = false
 
 func _on_animated_sprite_2d_animation_finished():
-	if(animated_sprite.animation == "land"):
-		animation_locked = false
-	elif(animated_sprite.animation == "jump_start"):
+	if(["jump_start", "land", "double_jump()"].has(animated_sprite.animation)):
 		animation_locked = false
 		
 func _on_animated_sprite_2d_animation_changed():
