@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702904141
+::res://::1702979737
 export_presets.cfg::TextFile::-1::1702309277::0::1::::<><>::
 icon.svg::CompressedTexture2D::121988210331657489::1700126821::1700126821::1::::<><>::
 README.md::TextFile::-1::1700570174::0::1::::<><>::
@@ -58,14 +58,14 @@ Player Sword Stab 96x48.png::CompressedTexture2D::8736117326259455374::170012682
 Basic Tilemap.png::CompressedTexture2D::5101362932135147803::1700126821::1700222177::1::::<><>::
 blocks.png::CompressedTexture2D::8050389025018509453::1701703589::1701703616::1::::<><>::
 Masterbord.png::CompressedTexture2D::702231044339609312::1701702240::1701702778::1::::<><>::
-::res://Character/::1702308850
+::res://Character/::1702913528
 enemy.gd::GDScript::-1::1700580790::0::1::::<>CharacterBody2D<>::
 enemy.tscn::PackedScene::61281406584585703::1701694174::0::1::::<><>::uid://cltmkdupe6nqm
-player.gd::GDScript::-1::1702306780::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::7693647134561359666::1702308850::0::1::::<><>::res://Character/player.gd<>uid://go13c0ceg0ir::::res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png<>uid://duqj4qqowpmyw::::res://Asset Pack/Sprite Sheets/Player/player jump 48x48.png<>uid://cu3gogxojrug3::::res://Asset Pack/Sprite Sheets/Air Spin/player air spin 48x48.png<>uid://tbunsys8mub5::::res://Asset Pack/Sprite Sheets/Player/player land 48x48.png<>uid://0puhw6oel88m::::res://Asset Pack/Sprite Sheets/Player/run cycle 48x48.png
-::res://Scenes/::1702309116
-ambitieLevel.tscn::PackedScene::5028333640433022473::1702308849::0::1::::<><>::uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn
-glowLevel.tscn::PackedScene::7275862018643483559::1702309116::0::1::::<><>::uid://kafv372g3073::::res://Asset Pack/Tilemap/Masterbord.png<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://dokrtxu3wc4pe::::res://Asset Pack/Tilemap/2.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn
+player.gd::GDScript::-1::1702906430::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::7693647134561359666::1702913528::0::1::::<><>::res://Character/player.gd<>uid://go13c0ceg0ir::::res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png<>uid://duqj4qqowpmyw::::res://Asset Pack/Sprite Sheets/Player/player jump 48x48.png<>uid://cu3gogxojrug3::::res://Asset Pack/Sprite Sheets/Air Spin/player air spin 48x48.png<>uid://tbunsys8mub5::::res://Asset Pack/Sprite Sheets/Player/player land 48x48.png<>uid://0puhw6oel88m::::res://Asset Pack/Sprite Sheets/Player/run cycle 48x48.png
+::res://Scenes/::1702911326
+ambitieLevel.tscn::PackedScene::5028333640433022473::1702907185::0::1::::<><>::uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn
+glowLevel.tscn::PackedScene::7275862018643483559::1702911326::0::1::::<><>::uid://kafv372g3073::::res://Asset Pack/Tilemap/Masterbord.png<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://dokrtxu3wc4pe::::res://Asset Pack/Tilemap/2.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn
 mainMenu.gd::GDScript::-1::1702299126::0::1::::<>Node2D<>::
-mainMenu.tscn::PackedScene::8825483887600409415::1702308849::0::1::::<><>::res://Scenes/mainMenu.gd<>uid://lybhuha66qbp::::res://you honor.png
+mainMenu.tscn::PackedScene::8825483887600409415::1702907185::0::1::::<><>::res://Scenes/mainMenu.gd<>uid://lybhuha66qbp::::res://you honor.png
 test_level.tscn::PackedScene::1728691544179147654::1701775446::0::1::::<><>::uid://cexex4yie7obb
