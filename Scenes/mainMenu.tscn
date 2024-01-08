@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dx0eovk7mtqqp"]
+[gd_scene load_steps=4 format=3 uid="uid://dx0eovk7mtqqp"]
 
 [ext_resource type="Script" path="res://Scenes/mainMenu.gd" id="1_n08vo"]
 [ext_resource type="Texture2D" uid="uid://lybhuha66qbp" path="res://you honor.png" id="2_dulot"]
+[ext_resource type="AudioStream" uid="uid://c0fhat78bmvdj" path="res://forest-lullaby-110624.mp3" id="3_7xlxy"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_n08vo")
@@ -39,6 +40,23 @@ text = "Ambitie"
 position = Vector2(581, 357)
 scale = Vector2(0.414573, 0.381072)
 texture = ExtResource("2_dulot")
+
+[node name="TextEdit2" type="TextEdit" parent="."]
+offset_left = 37.0
+offset_top = 23.0
+offset_right = 310.0
+offset_bottom = 596.0
+text = "WASD too move
+Esc too quit, 
+you can use this at any time.
+(exept said otherwise)
+
+pesismistische game.
+je kan nie winnen"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_7xlxy")
+autoplay = true
 
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="Glow" to="." method="_on_glow_pressed"]

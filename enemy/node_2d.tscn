@@ -1,0 +1,72 @@
+[gd_scene load_steps=8 format=3 uid="uid://duydyknreqxlg"]
+
+[ext_resource type="Script" path="res://enemy/movement_enemy.gd" id="1_etbhw"]
+[ext_resource type="Texture2D" uid="uid://dnjv4edegqlvs" path="res://enemy/Slime.png" id="1_nc67p"]
+
+[sub_resource type="Animation" id="Animation_jii5v"]
+resource_name = "move"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(200, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ommoi"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_41peh"]
+resource_name = "updown"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_v1qk7"]
+_data = {
+"RESET": SubResource("Animation_ommoi"),
+"move": SubResource("Animation_jii5v"),
+"updown": SubResource("Animation_41peh")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wgpcl"]
+size = Vector2(37, 31)
+
+[node name="movement" type="Node2D"]
+script = ExtResource("1_etbhw")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Area2D/Slime")
+autoplay = "move"
+libraries = {
+"": SubResource("AnimationLibrary_v1qk7")
+}
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="Slime" type="Sprite2D" parent="Area2D"]
+position = Vector2(-0.166641, -16)
+scale = Vector2(2, 2)
+texture = ExtResource("1_nc67p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.166641, 0)
+shape = SubResource("RectangleShape2D_wgpcl")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

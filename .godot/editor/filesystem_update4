@@ -1,5 +1,10 @@
-res://Character/player.tscn
-res://Character/player.gd
+res://Scenes/glowLevel.tscn
 res://Scenes/mainMenu.tscn
 res://Scenes/ambitieLevel.tscn
-res://Scenes/glowLevel.tscn
+res://Character/player.tscn
+res://Character/player.gd
+res://enemy/node_2d.tscn
+res://enemy/movement_enemy.gd
+res://enemy/lost.tscn
+res://enemy/lost.gd
+res://Scenes/mainMenu.gd

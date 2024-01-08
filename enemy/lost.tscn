@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsva31rglqhru"]
+
+[ext_resource type="Script" path="res://enemy/lost.gd" id="1_8trh0"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 431.0
+offset_top = 188.0
+offset_right = 526.0
+offset_bottom = 272.0
+text = "you lost"
+script = ExtResource("1_8trh0")
+
+[node name="TextEdit2" type="TextEdit" parent="."]
+offset_left = 139.0
+offset_top = 171.0
+offset_right = 425.0
+offset_bottom = 291.0
+text = "press escape too go to main menu"

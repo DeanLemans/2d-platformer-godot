@@ -1,10 +1,12 @@
-Camera2D
+AudioStreamPlayer
+TextEdit
+AnimationPlayer
+CollisionShape2D
+Area2D
 Button
+Camera2D
 AnimatedSprite2D
 CharacterBody2D
-Area2D
-CollisionShape2D
 RigidBody2D
-TextEdit
 RemoteTransform2D
 TileMap
