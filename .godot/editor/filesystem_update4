@@ -1,1 +1,5 @@
 res://Character/player.tscn
+res://Character/player.gd
+res://Scenes/mainMenu.tscn
+res://Scenes/ambitieLevel.tscn
+res://Scenes/glowLevel.tscn
