@@ -496,11 +496,15 @@ shape = SubResource("CapsuleShape2D_jnbaw")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 tree_root = SubResource("AnimationNodeStateMachine_m1cjd")
 <<<<<<< HEAD
 =======
 anim_player = NodePath("../AnimationPlayer")
 >>>>>>> parent of 00f03d4 (man im fucked and have too revert too an old branch)
+=======
+anim_player = NodePath("../AnimationPlayer")
+>>>>>>> parent of fe7b124 (animation tree begining)
 =======
 anim_player = NodePath("../AnimationPlayer")
 >>>>>>> parent of fe7b124 (animation tree begining)
