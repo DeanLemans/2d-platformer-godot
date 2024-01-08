@@ -336,6 +336,7 @@ jump_velocity = -205.0
 double_jump_velocity = -195.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
 position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
 animation = &"walk"
@@ -350,16 +351,5 @@ shape = SubResource("CapsuleShape2D_jnbaw")
 texture = ExtResource("1_x3mr8")
 hframes = 10
 
-<<<<<<< HEAD
-=======
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_c75a5")
-}
-
-[node name="AnimationTree" type="AnimationTree" parent="."]
-tree_root = SubResource("AnimationNodeStateMachine_m1cjd")
-
->>>>>>> parent of db69941 (small animaiton tree fix)
 [connection signal="animation_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_changed"]
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
