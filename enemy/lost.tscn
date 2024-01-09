@@ -3,6 +3,7 @@
 [ext_resource type="Script" path="res://enemy/lost.gd" id="1_8trh0"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_8trh0")
 
 [node name="TextEdit" type="TextEdit" parent="."]
 offset_left = 431.0
@@ -10,7 +11,6 @@ offset_top = 188.0
 offset_right = 526.0
 offset_bottom = 272.0
 text = "you lost"
-script = ExtResource("1_8trh0")
 
 [node name="TextEdit2" type="TextEdit" parent="."]
 offset_left = 139.0

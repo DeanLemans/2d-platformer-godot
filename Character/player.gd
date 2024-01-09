@@ -50,9 +50,6 @@ func _physics_process(delta):
 	update_animation()
 	update_facing_direction()
 	
-
-
-
 func update_animation():
 	if not animation_locked:
 		if not is_on_floor():
@@ -91,7 +88,3 @@ func _on_animated_sprite_2d_animation_finished():
 		
 func _on_animated_sprite_2d_animation_changed():
 	pass
-	
-func _process(_delta):
-	if Input.is_action_pressed("ui_cancel"):
-		get_tree().quit()
