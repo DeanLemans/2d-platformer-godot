@@ -1,8 +1,7 @@
-res://enemy/node_2d.tscn
 res://Scenes/mainMenu.tscn
 res://Scenes/ambitieLevel.tscn
 res://Scenes/glowLevel.tscn
-res://enemy/lost.tscn
 res://Scenes/level_selection.tscn
-res://Scenes/ambitieLevel.gd
-res://enemy/lost.gd
+res://Scenes/lost.tscn
+res://enemy/enemy.tscn
+res://Scenes/mainMenu.gd

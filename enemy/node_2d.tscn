@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://duydyknreqxlg"]
 
-[ext_resource type="Script" path="res://enemy/movement_enemy.gd" id="1_etbhw"]
 [ext_resource type="Texture2D" uid="uid://dnjv4edegqlvs" path="res://enemy/Slime.png" id="1_nc67p"]
+[ext_resource type="Script" path="res://enemy/node_2d.gd" id="1_stuww"]
 
 [sub_resource type="Animation" id="Animation_ommoi"]
 length = 0.001
@@ -49,7 +49,7 @@ _data = {
 size = Vector2(37, 31)
 
 [node name="movement" type="Node2D"]
-script = ExtResource("1_etbhw")
+script = ExtResource("1_stuww")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../Area2D/Slime")

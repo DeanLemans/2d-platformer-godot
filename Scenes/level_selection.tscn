@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://fkousx6tdb0y"]
+[gd_scene load_steps=3 format=3 uid="uid://fkousx6tdb0y"]
 
 [ext_resource type="Script" path="res://Scenes/level_selection.gd" id="1_ckdcw"]
+[ext_resource type="AudioStream" uid="uid://bsfggqd06bvkr" path="res://Local Forecast Elevator.mp3" id="2_b01fr"]
 
 [node name="levelSelection" type="Node2D"]
 script = ExtResource("1_ckdcw")
@@ -25,6 +26,10 @@ offset_top = 227.0
 offset_right = 355.0
 offset_bottom = 398.0
 text = "level 1"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_b01fr")
+autoplay = true
 
 [connection signal="pressed" from="To3" to="." method="_on_to_3_pressed"]
 [connection signal="pressed" from="To2" to="." method="_on_to_2_pressed"]
