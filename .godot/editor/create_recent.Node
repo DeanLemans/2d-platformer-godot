@@ -1,7 +1,7 @@
+Button
 AnimationPlayer
 CollisionShape2D
 Area2D
-Button
 AudioStreamPlayer
 TextEdit
 Camera2D
