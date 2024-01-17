@@ -53,7 +53,7 @@ func _physics_process(delta):
 func update_animation():
 	if not animation_locked:
 		if not is_on_floor():
-			animated_sprite.play("jump_loop")
+			animated_sprite.play("jump_air")
 		else:
 			if direction.x != 0:
 				animated_sprite.play("walk")
