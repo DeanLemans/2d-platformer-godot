@@ -405,4 +405,4 @@ drag_right_margin = 0.15
 drag_bottom_margin = 0.15
 
 [node name="Enemy" parent="." instance=ExtResource("5_npomc")]
-position = Vector2(-219, -122)
+position = Vector2(168, -128)

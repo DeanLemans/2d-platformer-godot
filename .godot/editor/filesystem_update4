@@ -1,8 +1,7 @@
 res://enemy/enemy.gd
-res://Scenes/lost.tscn
+res://enemy/enemy.tscn
 res://Scenes/mainMenu.tscn
 res://Scenes/ambitieLevel.tscn
 res://Scenes/level_selection.tscn
-res://enemy/enemy.tscn
+res://Scenes/lost.tscn
 res://Character/player.tscn
-res://Character/player.gd

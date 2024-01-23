@@ -1,9 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://dsva31rglqhru"]
 
-[ext_resource type="Script" path="res://Scenes/lost.gd" id="1_w4rtf"]
+[ext_resource type="Script" path="res://Scenes/TextEdit.gd" id="2_4xlql"]
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_w4rtf")
 
 [node name="TextEdit" type="TextEdit" parent="."]
 offset_left = 431.0
@@ -11,6 +10,7 @@ offset_top = 188.0
 offset_right = 526.0
 offset_bottom = 272.0
 text = "you lost"
+script = ExtResource("2_4xlql")
 
 [node name="TextEdit2" type="TextEdit" parent="."]
 offset_left = 139.0
