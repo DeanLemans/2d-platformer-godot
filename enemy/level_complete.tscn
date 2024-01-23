@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://nxixuukadc3u"]
+
+[ext_resource type="Script" path="res://enemy/level_complete.gd" id="1_036ae"]
+[ext_resource type="Texture2D" uid="uid://b0del777xqa0" path="res://icon.svg" id="1_lqiri"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gwjxj"]
+size = Vector2(26, 26)
+
+[node name="levelComplete" type="Node2D"]
+script = ExtResource("1_036ae")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="YouHonor" type="Sprite2D" parent="Area2D"]
+position = Vector2(-8.34465e-07, 0)
+scale = Vector2(0.203125, 0.203125)
+texture = ExtResource("1_lqiri")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_gwjxj")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

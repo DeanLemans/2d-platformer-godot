@@ -9,8 +9,8 @@ func _process(_delta):
 	pass
 
 func _on_to_1_pressed():
-	get_tree().change_scene_to_file("res://Scenes/ambitieLevel.tscn")
-
+	get_tree().change_scene_to_file("res://Scenes/tutorial.tscn")
+#
 
 func _on_to_2_pressed():
 	pass # Replace with function body.
@@ -18,3 +18,7 @@ func _on_to_2_pressed():
 
 func _on_to_3_pressed():
 	pass # Replace with function body.
+
+
+func _on_testing_pressed():
+	get_tree().change_scene_to_file("res://Scenes/ambitieLevel.tscn")

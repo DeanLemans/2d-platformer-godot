@@ -1,12 +1,12 @@
+TileMap
+TextEdit
 Button
 AnimationPlayer
 CollisionShape2D
 Area2D
 AudioStreamPlayer
-TextEdit
 Camera2D
 AnimatedSprite2D
 CharacterBody2D
 RigidBody2D
 RemoteTransform2D
-TileMap

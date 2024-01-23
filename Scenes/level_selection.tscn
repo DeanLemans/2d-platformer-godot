@@ -25,19 +25,21 @@ offset_left = 158.0
 offset_top = 227.0
 offset_right = 355.0
 offset_bottom = 398.0
-text = "level 1"
+text = "tutorial
+level 1"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_b01fr")
 autoplay = true
 
-[node name="Button" type="Button" parent="."]
-offset_left = 190.0
-offset_top = 215.0
-offset_right = 328.0
-offset_bottom = 246.0
-text = "goes to test level"
+[node name="testing" type="Button" parent="."]
+offset_left = 473.0
+offset_top = 55.0
+offset_right = 611.0
+offset_bottom = 86.0
+text = "test level"
 
 [connection signal="pressed" from="To3" to="." method="_on_to_3_pressed"]
 [connection signal="pressed" from="To2" to="." method="_on_to_2_pressed"]
 [connection signal="pressed" from="To1" to="." method="_on_to_1_pressed"]
+[connection signal="pressed" from="testing" to="." method="_on_testing_pressed"]
