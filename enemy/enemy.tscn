@@ -58,9 +58,9 @@ texture = ExtResource("1_c5q6w")
 shape = SubResource("RectangleShape2D_v2n15")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "RESET"
 libraries = {
 "": SubResource("AnimationLibrary_vhnqd")
 }
+autoplay = "RESET"
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

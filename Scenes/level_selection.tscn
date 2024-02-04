@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://fkousx6tdb0y"]
 
 [ext_resource type="Script" path="res://Scenes/level_selection.gd" id="1_ckdcw"]
-[ext_resource type="AudioStream" uid="uid://bsfggqd06bvkr" path="res://Local Forecast Elevator.mp3" id="2_b01fr"]
+[ext_resource type="AudioStream" uid="uid://bsfggqd06bvkr" path="res://music/Local Forecast Elevator.mp3" id="2_b01fr"]
 
 [node name="levelSelection" type="Node2D"]
 script = ExtResource("1_ckdcw")
