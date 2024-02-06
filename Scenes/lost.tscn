@@ -5,16 +5,10 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="TextEdit" type="TextEdit" parent="."]
-offset_left = 431.0
-offset_top = 188.0
-offset_right = 526.0
-offset_bottom = 272.0
-text = "you lost"
+offset_left = 462.0
+offset_top = 242.0
+offset_right = 746.0
+offset_bottom = 385.0
+text = "you lost
+(press escape too go to main menu)"
 script = ExtResource("2_4xlql")
-
-[node name="TextEdit2" type="TextEdit" parent="."]
-offset_left = 139.0
-offset_top = 171.0
-offset_right = 425.0
-offset_bottom = 291.0
-text = "press escape too go to main menu"

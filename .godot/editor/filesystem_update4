@@ -1,8 +1,7 @@
-res://Scenes/level_selection.tscn
-res://Scenes/level_selection.gd
 res://Scenes/mainMenu.tscn
 res://Scenes/lost.tscn
 res://enemy/enemy.tscn
+res://Scenes/level_selection.tscn
 res://enemy/level_complete.tscn
 res://Character/player.tscn
 res://Scenes/tutorial.tscn

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scenes/mainMenu.gd" id="1_n08vo"]
 [ext_resource type="Texture2D" uid="uid://lybhuha66qbp" path="res://you honor.png" id="2_dulot"]
-[ext_resource type="AudioStream" uid="uid://c0fhat78bmvdj" path="res://forest-lullaby-110624.mp3" id="3_7xlxy"]
+[ext_resource type="AudioStream" uid="uid://diu0xkscl0bfn" path="res://music/for-elevator-jazz-music-124005.mp3" id="3_65xxw"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_n08vo")
@@ -55,7 +55,7 @@ pesismistische game.
 je kan nie winnen"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_7xlxy")
+stream = ExtResource("3_65xxw")
 autoplay = true
 
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
