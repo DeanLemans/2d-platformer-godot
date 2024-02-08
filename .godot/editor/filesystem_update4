@@ -1,4 +1,5 @@
 res://Scenes/mainMenu.tscn
+res://Scenes/mainMenu.gd
 res://Scenes/lost.tscn
 res://enemy/enemy.tscn
 res://Scenes/level_selection.tscn
