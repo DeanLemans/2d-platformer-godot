@@ -48,11 +48,10 @@ offset_right = 310.0
 offset_bottom = 596.0
 text = "WASD too move
 Esc too quit, 
-you can use this at any time.
+you can use this at (almost) any time.
 (exept said otherwise)
 
-pesismistische game.
-je kan nie winnen"
+touch the godot logo too win"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_65xxw")
