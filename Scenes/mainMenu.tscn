@@ -16,28 +16,29 @@ tooltip_text = "fucking pussy"
 text = "Quit"
 
 [node name="TextEdit" type="TextEdit" parent="."]
-offset_left = 422.0
-offset_top = 17.0
-offset_right = 724.0
-offset_bottom = 62.0
-text = "game voor glow en ambitie project."
+offset_left = 500.0
+offset_top = 15.0
+offset_right = 685.0
+offset_bottom = 90.0
+text = "game voor glow/shine 
+en ambitie project."
 
 [node name="Glow" type="Button" parent="."]
-offset_left = 707.0
-offset_top = 111.0
-offset_right = 834.0
-offset_bottom = 226.0
+offset_left = 685.0
+offset_top = 110.0
+offset_right = 810.0
+offset_bottom = 225.0
 text = "Glow"
 
 [node name="Ambitie" type="Button" parent="."]
-offset_left = 351.0
+offset_left = 350.0
 offset_top = 110.0
-offset_right = 477.0
-offset_bottom = 227.0
+offset_right = 475.0
+offset_bottom = 225.0
 text = "Ambitie"
 
 [node name="YouHonor" type="Sprite2D" parent="."]
-position = Vector2(581, 357)
+position = Vector2(585, 350)
 scale = Vector2(0.414573, 0.381072)
 texture = ExtResource("2_dulot")
 

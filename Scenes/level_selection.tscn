@@ -7,24 +7,24 @@
 script = ExtResource("1_ckdcw")
 
 [node name="To3" type="Button" parent="."]
-offset_left = 828.0
-offset_top = 213.0
-offset_right = 1023.0
-offset_bottom = 387.0
+offset_left = 850.0
+offset_top = 225.0
+offset_right = 1050.0
+offset_bottom = 410.0
 text = "level 3"
 
 [node name="To2" type="Button" parent="."]
-offset_left = 518.0
-offset_top = 219.0
-offset_right = 713.0
-offset_bottom = 393.0
+offset_left = 500.0
+offset_top = 225.0
+offset_right = 700.0
+offset_bottom = 410.0
 text = "level 2"
 
 [node name="To1" type="Button" parent="."]
-offset_left = 158.0
-offset_top = 227.0
-offset_right = 355.0
-offset_bottom = 398.0
+offset_left = 150.0
+offset_top = 225.0
+offset_right = 350.0
+offset_bottom = 410.0
 text = "tutorial
 level 1"
 
@@ -33,10 +33,10 @@ stream = ExtResource("2_b01fr")
 autoplay = true
 
 [node name="testing" type="Button" parent="."]
-offset_left = 473.0
-offset_top = 55.0
-offset_right = 611.0
-offset_bottom = 86.0
+offset_left = 525.0
+offset_top = 450.0
+offset_right = 675.0
+offset_bottom = 500.0
 text = "test level"
 
 [connection signal="pressed" from="To3" to="." method="_on_to_3_pressed"]
