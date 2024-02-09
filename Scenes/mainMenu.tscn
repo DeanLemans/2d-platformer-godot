@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dx0eovk7mtqqp"]
+[gd_scene load_steps=8 format=3 uid="uid://dx0eovk7mtqqp"]
 
 [ext_resource type="Script" path="res://Scenes/mainMenu.gd" id="1_n08vo"]
 [ext_resource type="Texture2D" uid="uid://lybhuha66qbp" path="res://you honor.png" id="2_dulot"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bo8lceey0cro3" path="res://sigma dean2.png" id="4_qoe68"]
 [ext_resource type="Texture2D" uid="uid://diic1e846mss4" path="res://HUH duke.jpg" id="5_rrhfq"]
 [ext_resource type="Texture2D" uid="uid://nbkbevvpoqja" path="res://zesty duke2.jpg" id="6_q7gbg"]
+[ext_resource type="Texture2D" uid="uid://bung3m1f0q2xu" path="res://da rock dean.png" id="7_151yl"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_n08vo")
@@ -38,12 +39,12 @@ offset_left = 350.0
 offset_top = 110.0
 offset_right = 475.0
 offset_bottom = 225.0
-text = "Ambitie"
+text = "Ambitie/Shine"
 
 [node name="YouHonor" type="Sprite2D" parent="."]
 visibility_layer = 1023
-position = Vector2(1036, 529)
-scale = Vector2(0.366415, 0.381072)
+position = Vector2(1036, 481.827)
+scale = Vector2(0.35, 0.522033)
 texture = ExtResource("2_dulot")
 
 [node name="TextEdit2" type="TextEdit" parent="."]
@@ -53,10 +54,9 @@ offset_right = 315.0
 offset_bottom = 243.0
 text = "WASD too move
 Esc too quit, 
-you can use this at (almost) any time.
-(exept said otherwise)
+you can ESC at almost every menu
 
-touch the godot logo too win"
+"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_65xxw")
@@ -67,22 +67,27 @@ offset_left = 875.0
 offset_top = 25.0
 offset_right = 1150.0
 offset_bottom = 250.0
-text = "right text"
+text = "touch the godot logo too win"
 
 [node name="SigmaDean2" type="Sprite2D" parent="."]
-position = Vector2(89, 506)
-scale = Vector2(0.282692, 0.282692)
+position = Vector2(106, 478)
+scale = Vector2(0.35, 0.35)
 texture = ExtResource("4_qoe68")
 
 [node name="HuhDuke" type="Sprite2D" parent="."]
-position = Vector2(325, 455)
-scale = Vector2(0.0947712, 0.0947713)
+position = Vector2(325, 450)
+scale = Vector2(0.1, 0.1)
 texture = ExtResource("5_rrhfq")
 
 [node name="ZestyDuke2" type="Sprite2D" parent="."]
-position = Vector2(801, 448)
-scale = Vector2(0.148017, 0.145458)
+position = Vector2(800, 450)
+scale = Vector2(0.15, 0.147)
 texture = ExtResource("6_q7gbg")
+
+[node name="DaRockDean" type="Sprite2D" parent="."]
+position = Vector2(585, 285)
+scale = Vector2(0.23, 0.23)
+texture = ExtResource("7_151yl")
 
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="Glow" to="." method="_on_glow_pressed"]
