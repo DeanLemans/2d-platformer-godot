@@ -10,6 +10,7 @@
 	- wallJump
 	- edgeGrab
 	- create better enemy sprite.
+ 	- user testing
 	-
 - far todo
 	- more enemy animation(death, kills player)
