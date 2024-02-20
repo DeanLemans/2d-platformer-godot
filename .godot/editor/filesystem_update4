@@ -7,3 +7,4 @@ res://Character/player.tscn
 res://Scenes/ambitieLevel.tscn
 res://Scenes/tutorial.tscn
 res://Scenes/mainMenu.tscn
+res://Character/player.gd
