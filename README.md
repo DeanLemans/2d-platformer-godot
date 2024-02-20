@@ -10,7 +10,7 @@
 	- wallJump
 	- edgeGrab
 	- create better enemy sprite.
- 	- user testing
+
 	-
 - far todo
 	- more enemy animation(death, kills player)
@@ -26,6 +26,9 @@
 -
 - working on
 	- tilemap improvement
+- 
+- user feedback
+	- 1
 -
 - done shine
 	- add background too everything
