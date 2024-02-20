@@ -20,9 +20,6 @@
 		- certain amount of health point.
 		- 3 hit point in whole game
 		- 2 hit points per level
-		-
-		-
-		-
 		- (brainstorm save system)
 	- multiple difficulties
 -
