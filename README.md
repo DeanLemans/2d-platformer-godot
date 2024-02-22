@@ -10,31 +10,82 @@
 	- wallJump
 	- edgeGrab
 	- create better enemy sprite.
-
 	-
 - far todo
 	- more enemy animation(death, kills player)
 	- special power ups that you can grab for bigger screen in level
 	- brainstorm save system
-	  collapsed:: true
 		- checkpoints
 		- certain amount of health point.
 		- 3 hit point in whole game
 		- 2 hit points per level
 		- (brainstorm save system)
+ 		- 
 	- multiple difficulties
 -
 - working on
 	- tilemap improvement
-- 
+-
 - user feedback
-	- 1
+	- Sander:
+		- mooi start menu en duidelijk
+		- ik dacht dat je op de fotos kon drukken en vond de plaatsing van de werkende knoppen gaotisch
+		- de toturial is wel duidelijk maar erg kort
+		- maar het is erg donker en het is niet duidelijk dat trump de vijand ism
+		- meer variatie in vijanden en een meer passend kleuren patroon voor het speelbare character
+		-
+	- Mink:
+		- Main menu is bugged, kan de tekst gedeeltelijk weghalen en bewerken. De glow versie is bugged. Kon niet dood gaan en enemy kon niet dood. Uniek main menu design. De 	tutorial boxes kun je ook aanklikken, fixen door muis uit te zetten als je de game speelt. Paar spelfoutjes. De tileset is leuk, ik zou een snellere restart maken voor de levels ipv terug naar het menu. Leuke game, health system misschien killable enemies en de mensen die willen quitten niet uitschelden. Misschien duidelijker waar je naartoe moet./
+		-
+	- Yannick:
+		- Hoofdletters, grammatica/spelling checken
+		- GLOW: Uitleg bij doel
+		- Snelheid verminderen
+		- Walljumps
+		- Variatie in textures
+		- Trail achter lopen
+	- Duke:
+		- mijn gezicht uit de main menu halen
+		- het menu is breaken. je kan er in typen
+		- voor de rest is het wel oke
+		- tetorial is wel oke.
+		- wat er is van de 2de level is goed vind ik
+		-
+	- Nick:
+		- restart knop als je dood bent gegaan
+		- zorg ervoor dat je nergens meer kan typen
+		- maak knoppen die er mooier uit zien
+		- voeg meer kleuren toe
+		- gebruik andere fonts
+		- zorg ervoor dat de glow opdracht weg gaat of werkt anders hebben wij er niks aan dat het er is
+		- add a picture of the godot logo not everybody knows what it looks like
+		- menu opnieuw indelen
+		-
+	- Sem:
+		- Main menu zou er beter uit kunnen zien met eventuele uitleg van wat je kan doen.
+		- esc menu switch gelijk uit de game het zou handiger zijn als je opties zou kunnen hebben en verder zou kunnen gaan waar je was gebleven.
+		- meer acties die je zou kunnen doen. sprinten sneaken.
+		- geef aan dat trump een enemie is want het is momenteel niet duidelijk dat het een enemie is tot je hem aanraakt.
+		- de moeilijkheids overgang is groot.
+		- de muziek misschien wat meer bij de game laten passen.
+  		- 
+	- Niek:
+		- jump smoother (jump faster; it feels like the jump has a delay)
+		- more level (but you knew that :))
+		-
+	- Luke:
+		- Finish the levels, make it more challanging.
+		- less sensitive movement.
+		- jump could be better.
+		- maybe make it less just a parkour game and more variation then just jumping and running.
+-
 -
 - done shine
+	- FEEDBACK: movement slower
 	- add background too everything
 	- add borders too everything
 	- fixed the unclear pixels. https://www.reddit.com/r/godot/comments/swnucp/how_do_i_get_clean_pixel_art_in_godot_4/
-	- added my worksheet too my github README
+-
 - done ambitie
 	- double jump animation
 	- level complete interactible
