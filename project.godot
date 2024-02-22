@@ -14,7 +14,7 @@ config/name="2d platformer"
 run/main_scene="res://Scenes/mainMenu.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 boot_splash/image="res://you honor.png"
-config/icon="res://icon.svg"
+config/icon="res://img/icon.svg"
 
 [display]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo8lceey0cro3"
-path="res://.godot/imported/sigma dean2.png-4fef25340b7a45c70dadcb8d258ac684.ctex"
+path="res://.godot/imported/sigma dean2.png-9bb4292a7c4e4c57a058b25642553903.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sigma dean2.png"
-dest_files=["res://.godot/imported/sigma dean2.png-4fef25340b7a45c70dadcb8d258ac684.ctex"]
+source_file="res://img/sigma dean2.png"
+dest_files=["res://.godot/imported/sigma dean2.png-9bb4292a7c4e4c57a058b25642553903.ctex"]
 
 [params]
 

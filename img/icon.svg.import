@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nbkbevvpoqja"
-path="res://.godot/imported/zesty duke2.jpg-aa7572593a5bd7121c3ee60f81f3fc6b.ctex"
+uid="uid://b0del777xqa0"
+path="res://.godot/imported/icon.svg-ce27d9a40af043c07fe2de46f7261485.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://zesty duke2.jpg"
-dest_files=["res://.godot/imported/zesty duke2.jpg-aa7572593a5bd7121c3ee60f81f3fc6b.ctex"]
+source_file="res://img/icon.svg"
+dest_files=["res://.godot/imported/icon.svg-ce27d9a40af043c07fe2de46f7261485.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

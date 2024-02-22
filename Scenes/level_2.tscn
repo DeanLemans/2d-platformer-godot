@@ -413,13 +413,13 @@ drag_right_margin = 0.15
 drag_bottom_margin = 0.15
 
 [node name="Enemy3" parent="." instance=ExtResource("4_ewmvd")]
-position = Vector2(128, -232)
+position = Vector2(112, -232)
 
 [node name="Enemy4" parent="." instance=ExtResource("4_ewmvd")]
-position = Vector2(-56, -336)
+position = Vector2(-80, -336)
 
 [node name="Enemy2" parent="." instance=ExtResource("4_ewmvd")]
-position = Vector2(-224, -336)
+position = Vector2(-248, -336)
 
 [node name="Enemy" parent="." instance=ExtResource("4_ewmvd")]
-position = Vector2(128, -422)
+position = Vector2(112, -422)

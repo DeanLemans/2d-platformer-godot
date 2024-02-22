@@ -1,6 +1,6 @@
+Button
 TileMap
 TextEdit
-Button
 AnimationPlayer
 CollisionShape2D
 Area2D

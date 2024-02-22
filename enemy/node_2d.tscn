@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://duydyknreqxlg"]
 
-[ext_resource type="Texture2D" uid="uid://dnjv4edegqlvs" path="res://enemy/Slime.png" id="1_nc67p"]
+[ext_resource type="Texture2D" uid="uid://dnjv4edegqlvs" path="res://img/Slime.png" id="1_nc67p"]
 [ext_resource type="Script" path="res://enemy/node_2d.gd" id="1_stuww"]
 
 [sub_resource type="Animation" id="Animation_ommoi"]

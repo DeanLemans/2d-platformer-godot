@@ -20,7 +20,5 @@ func _on_to_3_pressed():
 func _on_testing_pressed():
 	get_tree().change_scene_to_file("res://Scenes/ambitieLevel.tscn")
 
-
-func _process(_delta):
-	if Input.is_action_pressed("ui_cancel"):
-		get_tree().change_scene_to_file("res://Scenes/mainMenu.tscn")
+func _on_button_pressed():
+	get_tree().change_scene_to_file("res://Scenes/mainMenu.tscn")

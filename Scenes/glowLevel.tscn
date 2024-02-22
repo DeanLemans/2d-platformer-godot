@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dokrtxu3wc4pe" path="res://Asset Pack/Tilemap/2.png" id="2_76khk"]
 [ext_resource type="Texture2D" uid="uid://cr027qdmqoyus" path="res://Asset Pack/Tilemap/160x160 background tilemap.png" id="2_so5mv"]
 [ext_resource type="PackedScene" uid="uid://dhu4ikmaqqcuc" path="res://Character/player.tscn" id="2_vou0t"]
-[ext_resource type="AudioStream" uid="uid://d0tdcpet5f7ib" path="res://goofy ahh music.mp3" id="6_5dur7"]
+[ext_resource type="AudioStream" path="res://goofy ahh music.mp3" id="6_5dur7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jxsn7"]
 texture = ExtResource("1_hux7o")

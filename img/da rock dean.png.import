@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://diic1e846mss4"
-path="res://.godot/imported/HUH duke.jpg-26edf93e6b20eb2a2a1d476713940a7b.ctex"
+uid="uid://bung3m1f0q2xu"
+path="res://.godot/imported/da rock dean.png-45d80bb594d3dec31c6993cd0e20f2fc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://HUH duke.jpg"
-dest_files=["res://.godot/imported/HUH duke.jpg-26edf93e6b20eb2a2a1d476713940a7b.ctex"]
+source_file="res://img/da rock dean.png"
+dest_files=["res://.godot/imported/da rock dean.png-45d80bb594d3dec31c6993cd0e20f2fc.ctex"]
 
 [params]
 
