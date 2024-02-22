@@ -2,15 +2,15 @@
 
 [ext_resource type="Script" path="res://Scenes/mainMenu.gd" id="1_n08vo"]
 [ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://Asset Pack/Tilemap/Basic Tilemap.png" id="2_1tva0"]
-[ext_resource type="Texture2D" path="res://you honor.png" id="2_dulot"]
+[ext_resource type="Texture2D" uid="uid://lybhuha66qbp" path="res://you honor.png" id="2_dulot"]
 [ext_resource type="AudioStream" uid="uid://diu0xkscl0bfn" path="res://music/for-elevator-jazz-music-124005.mp3" id="3_65xxw"]
 [ext_resource type="Texture2D" uid="uid://cr027qdmqoyus" path="res://Asset Pack/Tilemap/160x160 background tilemap.png" id="3_clwqx"]
-[ext_resource type="Texture2D" path="res://sigma dean2.png" id="4_qoe68"]
 [ext_resource type="Texture2D" uid="uid://bung3m1f0q2xu" path="res://img/da rock dean.png" id="7_151yl"]
 [ext_resource type="Texture2D" uid="uid://db2cw0jcnj8yu" path="res://img/1080 rock.png" id="9_4ykrk"]
 [ext_resource type="Texture2D" uid="uid://b0del777xqa0" path="res://img/icon.svg" id="10_2f5e4"]
 [ext_resource type="Texture2D" uid="uid://1rlsmm81yoee" path="res://img/amung us transformation.jpg" id="10_c134r"]
 [ext_resource type="Texture2D" uid="uid://b8hgvdlywpy1l" path="res://img/orange ape.jpg" id="11_skok8"]
+[ext_resource type="Texture2D" uid="uid://bo8lceey0cro3" path="res://img/sigma dean2.png" id="12_5ynxd"]
 [ext_resource type="Texture2D" uid="uid://c5l8lq48wb0td" path="res://img/pilot.jpeg" id="12_f3uq1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ug58i"]
@@ -167,13 +167,8 @@ texture = ExtResource("2_dulot")
 stream = ExtResource("3_65xxw")
 autoplay = true
 
-[node name="SigmaDean2" type="Sprite2D" parent="."]
-position = Vector2(131, 327)
-scale = Vector2(0.517308, 0.517308)
-texture = ExtResource("4_qoe68")
-
 [node name="DaRockDean" type="Sprite2D" parent="."]
-position = Vector2(1018.54, 245.932)
+position = Vector2(1000, 250)
 scale = Vector2(0.29599, 0.29599)
 texture = ExtResource("7_151yl")
 
@@ -227,9 +222,14 @@ scale = Vector2(0.136574, 0.136574)
 texture = ExtResource("11_skok8")
 
 [node name="Pilot" type="Sprite2D" parent="."]
-position = Vector2(355, 160)
+position = Vector2(363, 162)
 scale = Vector2(0.213402, 0.213402)
 texture = ExtResource("12_f3uq1")
+
+[node name="SigmaDean2" type="Sprite2D" parent="."]
+position = Vector2(131, 283)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("12_5ynxd")
 
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="Glow" to="." method="_on_glow_pressed"]

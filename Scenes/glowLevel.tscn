@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dbwqncnwckcx8"]
+[gd_scene load_steps=13 format=3 uid="uid://dbwqncnwckcx8"]
 
 [ext_resource type="Texture2D" uid="uid://kafv372g3073" path="res://Asset Pack/Tilemap/Masterbord.png" id="1_4j0sn"]
 [ext_resource type="PackedScene" uid="uid://duydyknreqxlg" path="res://enemy/node_2d.tscn" id="1_87ibm"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cr027qdmqoyus" path="res://Asset Pack/Tilemap/160x160 background tilemap.png" id="2_so5mv"]
 [ext_resource type="PackedScene" uid="uid://dhu4ikmaqqcuc" path="res://Character/player.tscn" id="2_vou0t"]
 [ext_resource type="AudioStream" path="res://goofy ahh music.mp3" id="6_5dur7"]
+[ext_resource type="PackedScene" uid="uid://di1q0naj5lgbi" path="res://enemy/enemy.tscn" id="8_p7d61"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jxsn7"]
 texture = ExtResource("1_hux7o")
@@ -1469,3 +1470,6 @@ stream = ExtResource("6_5dur7")
 volume_db = -2.234
 pitch_scale = 1.29
 autoplay = true
+
+[node name="Enemy" parent="." instance=ExtResource("8_p7d61")]
+position = Vector2(-83, -8)

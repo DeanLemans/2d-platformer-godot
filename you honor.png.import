@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lybhuha66qbp"
-path="res://.godot/imported/you honor.png-ec4b5f7b6eb3271df9155613d93950d3.ctex"
+path="res://.godot/imported/you honor.png-5c8f9855400cfd1780538489e4b2fa9c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://img/you honor.png"
-dest_files=["res://.godot/imported/you honor.png-ec4b5f7b6eb3271df9155613d93950d3.ctex"]
+source_file="res://you honor.png"
+dest_files=["res://.godot/imported/you honor.png-5c8f9855400cfd1780538489e4b2fa9c.ctex"]
 
 [params]
 
