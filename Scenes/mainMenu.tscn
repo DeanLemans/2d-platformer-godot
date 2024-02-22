@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dx0eovk7mtqqp"]
+[gd_scene load_steps=14 format=3 uid="uid://dx0eovk7mtqqp"]
 
 [ext_resource type="Script" path="res://Scenes/mainMenu.gd" id="1_n08vo"]
 [ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://Asset Pack/Tilemap/Basic Tilemap.png" id="2_1tva0"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://diic1e846mss4" path="res://HUH duke.jpg" id="5_rrhfq"]
 [ext_resource type="Texture2D" uid="uid://nbkbevvpoqja" path="res://zesty duke2.jpg" id="6_q7gbg"]
 [ext_resource type="Texture2D" uid="uid://bung3m1f0q2xu" path="res://da rock dean.png" id="7_151yl"]
+[ext_resource type="Texture2D" uid="uid://b0del777xqa0" path="res://icon.svg" id="10_2f5e4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ug58i"]
 texture = ExtResource("2_1tva0")
@@ -141,23 +142,23 @@ tooltip_text = "fucking pussy"
 text = "Quit"
 
 [node name="Glow" type="Button" parent="."]
-offset_left = 650.0
-offset_top = 115.0
-offset_right = 775.0
-offset_bottom = 230.0
-text = "Glow"
+offset_left = 550.0
+offset_top = 600.0
+offset_right = 600.0
+offset_bottom = 640.0
+text = "OLD"
 
 [node name="Ambitie" type="Button" parent="."]
-offset_left = 350.0
-offset_top = 115.0
-offset_right = 475.0
-offset_bottom = 230.0
-text = "Ambitie/Shine"
+offset_left = 483.0
+offset_top = 68.0
+offset_right = 663.0
+offset_bottom = 234.0
+text = "play"
 
 [node name="YouHonor" type="Sprite2D" parent="."]
 visibility_layer = 1023
-position = Vector2(571, 161)
-scale = Vector2(0.199749, 0.199749)
+position = Vector2(575, 250)
+scale = Vector2(0.0328729, 0.0328729)
 texture = ExtResource("2_dulot")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
@@ -165,7 +166,7 @@ stream = ExtResource("3_65xxw")
 autoplay = true
 
 [node name="SigmaDean2" type="Sprite2D" parent="."]
-position = Vector2(95, 478)
+position = Vector2(99, 171)
 scale = Vector2(0.35, 0.35)
 texture = ExtResource("4_qoe68")
 
@@ -180,15 +181,15 @@ scale = Vector2(0.15, 0.147)
 texture = ExtResource("6_q7gbg")
 
 [node name="DaRockDean" type="Sprite2D" parent="."]
-position = Vector2(1057, 467)
+position = Vector2(1056, 184)
 scale = Vector2(0.22, 0.22)
 texture = ExtResource("7_151yl")
 
 [node name="TextEdit3" type="TextEdit" parent="."]
-offset_left = 862.0
-offset_top = 8.0
-offset_right = 1137.0
-offset_bottom = 233.0
+offset_left = 451.0
+offset_top = 288.0
+offset_right = 688.0
+offset_bottom = 333.0
 text = "touch the godot logo too win"
 editable = false
 context_menu_enabled = false
@@ -199,33 +200,17 @@ drag_and_drop_selection_enabled = false
 virtual_keyboard_enabled = false
 middle_mouse_paste_enabled = false
 
-[node name="TextEdit2" type="TextEdit" parent="."]
-offset_left = 13.0
-offset_top = 8.0
-offset_right = 288.0
-offset_bottom = 226.0
-text = "WASD too move
-Esc too quit, 
-you can ESC at almost every menu
-
-"
-editable = false
-context_menu_enabled = false
-shortcut_keys_enabled = false
-selecting_enabled = false
-deselect_on_focus_loss_enabled = false
-drag_and_drop_selection_enabled = false
-virtual_keyboard_enabled = false
-middle_mouse_paste_enabled = false
-
 [node name="TextEdit" type="TextEdit" parent="."]
-offset_left = 500.0
-offset_top = 15.0
+offset_left = 450.0
+offset_top = 5.0
 offset_right = 685.0
-offset_bottom = 90.0
-text = "game voor glow/shine 
-en ambitie project."
+offset_bottom = 49.0
+text = "Dean's very cool platformer"
 editable = false
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(580, 396)
+texture = ExtResource("10_2f5e4")
 
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="Glow" to="." method="_on_glow_pressed"]
