@@ -412,26 +412,46 @@ offset_right = -159.0
 offset_bottom = -121.0
 text = "press spacebar too jump"
 editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
 
 [node name="TextEdit2" type="TextEdit" parent="."]
-offset_left = -147.0
-offset_top = -202.0
-offset_right = 55.0
-offset_bottom = -99.0
+offset_left = -156.0
+offset_top = -174.0
+offset_right = 54.0
+offset_bottom = -111.0
 text = "press spacebar 2 times 
-in rapid succesioin
-too double jump"
+in too double jump"
 editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
 
 [node name="TextEdit3" type="TextEdit" parent="."]
-offset_left = 150.0
-offset_top = -307.0
-offset_right = 258.0
-offset_bottom = -218.0
+offset_left = 160.0
+offset_top = -279.0
+offset_right = 268.0
+offset_bottom = -190.0
 text = "avoid enemy
 reach goal
 (godot logo)"
 editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
 
 [node name="levelComplete" parent="." instance=ExtResource("6_idpld")]
 position = Vector2(209, -153)

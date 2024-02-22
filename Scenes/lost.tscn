@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dsva31rglqhru"]
+[gd_scene load_steps=8 format=3 uid="uid://dsva31rglqhru"]
 
 [ext_resource type="Script" path="res://Scenes/TextEdit.gd" id="2_4xlql"]
 [ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://Asset Pack/Tilemap/Basic Tilemap.png" id="2_r8sm5"]
@@ -118,6 +118,8 @@ texture = ExtResource("3_0g40m")
 sources/0 = SubResource("TileSetAtlasSource_53kpf")
 sources/1 = SubResource("TileSetAtlasSource_ueg5n")
 
+[sub_resource type="Theme" id="Theme_t8m7x"]
+
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -128,9 +130,19 @@ layer_0/tile_data = PackedInt32Array(196608, 1, 3, 196609, 65537, 3, 196610, 131
 [node name="TextEdit" type="TextEdit" parent="."]
 offset_left = 475.0
 offset_top = 250.0
-offset_right = 769.0
-offset_bottom = 400.0
+offset_right = 625.0
+offset_bottom = 350.0
+tooltip_text = "press ESC you goofy"
+theme = SubResource("Theme_t8m7x")
 text = "you lost
 (press escape too
  go to main menu)"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
 script = ExtResource("2_4xlql")

@@ -190,6 +190,14 @@ offset_top = 8.0
 offset_right = 1137.0
 offset_bottom = 233.0
 text = "touch the godot logo too win"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
 
 [node name="TextEdit2" type="TextEdit" parent="."]
 offset_left = 13.0
@@ -201,6 +209,14 @@ Esc too quit,
 you can ESC at almost every menu
 
 "
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
 
 [node name="TextEdit" type="TextEdit" parent="."]
 offset_left = 500.0
@@ -209,6 +225,7 @@ offset_right = 685.0
 offset_bottom = 90.0
 text = "game voor glow/shine 
 en ambitie project."
+editable = false
 
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="Glow" to="." method="_on_glow_pressed"]
