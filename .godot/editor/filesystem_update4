@@ -8,3 +8,17 @@ res://Character/player.tscn
 res://Scenes/ambitieLevel.tscn
 res://Scenes/tutorial.tscn
 res://Scenes/level_2.tscn
+res://Scenes/level_3.tscn
+res://enemy/enemy.gd
+res://enemy/level_complete.gd
+res://Scenes/level_2.gd
+res://Scenes/level_3.gd
+res://Scenes/level_selection.gd
+res://Scenes/ambitieLevel.gd
+res://Scenes/Button.gd
+res://Scenes/lost.gd
+res://enemy/node_2d.gd
+res://Character/player.gd
+res://Scenes/TextEdit.gd
+res://Scenes/tutorial.gd
+res://Scenes/mainMenu.gd

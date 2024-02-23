@@ -1,6 +1,6 @@
 extends CharacterBody2D
 # template did not make myself.
-
+# modified it myself too suit my needs
 @export var speed : float = 200
 @export var jump_velocity : float = -200
 @export var double_jump_velocity : float = -150
@@ -35,8 +35,6 @@ func _physics_process(delta):
 			#double jump in air
 			double_jump()
 			
-			
-
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	direction = Input.get_vector("left", "right", "up", "down")
@@ -60,7 +58,6 @@ func update_animation():
 			else:
 				animated_sprite.play("idle")
 				
-		
 func update_facing_direction():
 	if direction.x > 0:
 		animated_sprite.flip_h = false
@@ -85,6 +82,3 @@ func land():
 func _on_animated_sprite_2d_animation_finished():
 	if(["jump_start", "land", "double_jump()"].has(animated_sprite.animation)):
 		animation_locked = false
-		
-func _on_animated_sprite_2d_animation_changed():
-	pass

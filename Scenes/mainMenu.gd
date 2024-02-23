@@ -5,7 +5,6 @@ func _on_quit_pressed():
 
 func _on_ambitie_pressed():
 	get_tree().change_scene_to_file("res://Scenes/level_selection.tscn")
-#res://Scenes/ambitieLevel.tscn
 
 func _on_glow_pressed():
 	get_tree().change_scene_to_file("res://Scenes/glowLevel.tscn")

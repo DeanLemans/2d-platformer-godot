@@ -1,6 +1,5 @@
 [gd_scene load_steps=13 format=3 uid="uid://dbwqncnwckcx8"]
 
-[ext_resource type="Texture2D" uid="uid://kafv372g3073" path="res://Asset Pack/Tilemap/Masterbord.png" id="1_4j0sn"]
 [ext_resource type="PackedScene" uid="uid://duydyknreqxlg" path="res://enemy/node_2d.tscn" id="1_87ibm"]
 [ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://Asset Pack/Tilemap/Basic Tilemap.png" id="1_hux7o"]
 [ext_resource type="Texture2D" uid="uid://dokrtxu3wc4pe" path="res://Asset Pack/Tilemap/2.png" id="2_76khk"]
@@ -8,6 +7,9 @@
 [ext_resource type="PackedScene" uid="uid://dhu4ikmaqqcuc" path="res://Character/player.tscn" id="2_vou0t"]
 [ext_resource type="AudioStream" uid="uid://un7uvtdjuj16" path="res://music/goofy ahh music.mp3" id="6_5dur7"]
 [ext_resource type="PackedScene" uid="uid://di1q0naj5lgbi" path="res://enemy/enemy.tscn" id="8_p7d61"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ngy05"]
+load_path = "res://.godot/imported/Masterbord.png-75c8dd531883903ce4d8c37e52c17e0c.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jxsn7"]
 texture = ExtResource("1_hux7o")
@@ -1449,7 +1451,7 @@ position = Vector2(-150, 0)
 visible = false
 position = Vector2(-103.336, -135)
 scale = Vector2(0.421875, 0.421875)
-texture = ExtResource("1_4j0sn")
+texture = SubResource("CompressedTexture2D_ngy05")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_up2m3")

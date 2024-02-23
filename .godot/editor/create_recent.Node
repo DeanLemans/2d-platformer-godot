@@ -1,11 +1,11 @@
-Button
+Camera2D
 TileMap
+Button
 TextEdit
 AnimationPlayer
 CollisionShape2D
 Area2D
 AudioStreamPlayer
-Camera2D
 AnimatedSprite2D
 CharacterBody2D
 RigidBody2D
