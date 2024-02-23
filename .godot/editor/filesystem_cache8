@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708636392
-export_presets.cfg::TextFile::-1::1708615452::0::1::::<><>::
+::res://::1708676903
+export_presets.cfg::TextFile::-1::1708636653::0::1::::<><>::
 README.md::TextFile::-1::1708595239::0::1::::<><>::
 you honor.png::CompressedTexture2D::821696624989188761::1699967029::1708636392::1::::<><>::
 ::res://Asset Pack/::1701776481
@@ -56,15 +56,15 @@ Player Sword Stab 96x48.png::CompressedTexture2D::8736117326259455374::170012682
 Basic Tilemap.png::CompressedTexture2D::5101362932135147803::1700126821::1700222177::1::::<><>::
 blocks.png::CompressedTexture2D::8050389025018509453::1701703589::1701703616::1::::<><>::
 Masterbord.png::CompressedTexture2D::702231044339609312::1701702240::1701702778::1::::<><>::
-::res://Character/::1708636221
+::res://Character/::1708636398
 enemy.tscn::PackedScene::61281406584585703::1701694174::0::1::::<><>::uid://cltmkdupe6nqm
 player.gd::GDScript::-1::1708443556::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::7693647134561359666::1708636221::0::1::::<><>::res://Character/player.gd<>uid://go13c0ceg0ir::::res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png<>uid://duqj4qqowpmyw::::res://Asset Pack/Sprite Sheets/Player/player jump 48x48.png<>uid://cu3gogxojrug3::::res://Asset Pack/Sprite Sheets/Air Spin/player air spin 48x48.png<>uid://tbunsys8mub5::::res://Asset Pack/Sprite Sheets/Player/player land 48x48.png<>uid://0puhw6oel88m::::res://Asset Pack/Sprite Sheets/Player/run cycle 48x48.png
-::res://enemy/::1708636221
+player.tscn::PackedScene::7693647134561359666::1708636398::0::1::::<><>::res://Character/player.gd<>uid://go13c0ceg0ir::::res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png<>uid://duqj4qqowpmyw::::res://Asset Pack/Sprite Sheets/Player/player jump 48x48.png<>uid://cu3gogxojrug3::::res://Asset Pack/Sprite Sheets/Air Spin/player air spin 48x48.png<>uid://tbunsys8mub5::::res://Asset Pack/Sprite Sheets/Player/player land 48x48.png<>uid://0puhw6oel88m::::res://Asset Pack/Sprite Sheets/Player/run cycle 48x48.png
+::res://enemy/::1708636421
 enemy.gd::GDScript::-1::1707388577::0::1::::<>Node2D<>::
-enemy.tscn::PackedScene::7775463421774002330::1708636220::0::1::::<><>::res://enemy/enemy.gd<>res://you honor.png
+enemy.tscn::PackedScene::7775463421774002330::1708636421::0::1::::<><>::res://enemy/enemy.gd<>uid://lybhuha66qbp::::res://you honor.png
 level_complete.gd::GDScript::-1::1707388577::0::1::::<>Node2D<>::
-level_complete.tscn::PackedScene::960463546657306796::1708636221::0::1::::<><>::res://enemy/level_complete.gd<>uid://b0del777xqa0::::res://img/icon.svg
+level_complete.tscn::PackedScene::960463546657306796::1708636398::0::1::::<><>::res://enemy/level_complete.gd<>uid://b0del777xqa0::::res://img/icon.svg
 movement_enemy.gd::GDScript::-1::1707388577::0::1::::<>Node2D<>::
 node_2d.gd::GDScript::-1::1708614247::0::1::::<>Node2D<>::
 node_2d.tscn::PackedScene::8612809546063764600::1708630741::0::1::::<><>::uid://dnjv4edegqlvs::::res://img/Slime.png<>res://enemy/node_2d.gd
@@ -81,20 +81,20 @@ Slime.png::CompressedTexture2D::8091623477949815720::1707388577::1708632861::1::
 for-elevator-jazz-music-124005.mp3::AudioStreamMP3::7763619906490267379::1707388577::1707388577::1::::<><>::
 goofy ahh music.mp3::AudioStreamMP3::1432593575700817159::1707388577::1708630621::1::::<><>::
 Local Forecast Elevator.mp3::AudioStreamMP3::3660517620853402513::1707388577::1707388577::1::::<><>::
-::res://Scenes/::1708636221
+::res://Scenes/::1708636398
 ambitieLevel.gd::GDScript::-1::1707388577::0::1::::<>Node2D<>::
-ambitieLevel.tscn::PackedScene::5028333640433022473::1708636221::0::1::::<><>::res://Scenes/ambitieLevel.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>uid://nxixuukadc3u::::res://enemy/level_complete.tscn<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn
+ambitieLevel.tscn::PackedScene::5028333640433022473::1708636398::0::1::::<><>::res://Scenes/ambitieLevel.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>uid://nxixuukadc3u::::res://enemy/level_complete.tscn<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn
 Button.gd::GDScript::-1::1707388577::0::1::::<>Button<>::
-glowLevel.tscn::PackedScene::7275862018643483559::1708636221::0::1::::<><>::uid://kafv372g3073::::res://Asset Pack/Tilemap/Masterbord.png<>uid://duydyknreqxlg::::res://enemy/node_2d.tscn<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://dokrtxu3wc4pe::::res://Asset Pack/Tilemap/2.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>res://goofy ahh music.mp3<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn
+glowLevel.tscn::PackedScene::7275862018643483559::1708636398::0::1::::<><>::uid://kafv372g3073::::res://Asset Pack/Tilemap/Masterbord.png<>uid://duydyknreqxlg::::res://enemy/node_2d.tscn<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://dokrtxu3wc4pe::::res://Asset Pack/Tilemap/2.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>res://goofy ahh music.mp3<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn
 level_2.gd::GDScript::-1::1707608862::0::1::::<>Node2D<>::
-level_2.tscn::PackedScene::2528304024914587504::1708636221::0::1::::<><>::uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>res://Scenes/level_2.gd<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn<>uid://nxixuukadc3u::::res://enemy/level_complete.tscn
+level_2.tscn::PackedScene::2528304024914587504::1708636398::0::1::::<><>::uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>res://Scenes/level_2.gd<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn<>uid://nxixuukadc3u::::res://enemy/level_complete.tscn
 level_selection.gd::GDScript::-1::1708636167::0::1::::<>Node2D<>::
-level_selection.tscn::PackedScene::372474731892400726::1708636221::0::1::::<><>::res://Scenes/level_selection.gd<>uid://bsfggqd06bvkr::::res://music/Local Forecast Elevator.mp3<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png
+level_selection.tscn::PackedScene::372474731892400726::1708636398::0::1::::<><>::res://Scenes/level_selection.gd<>uid://bsfggqd06bvkr::::res://music/Local Forecast Elevator.mp3<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png
 lost.gd::GDScript::-1::1707388577::0::1::::<>TextEdit<>::
-lost.tscn::PackedScene::8466064563785207074::1708636220::0::1::::<><>::res://Scenes/TextEdit.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png
+lost.tscn::PackedScene::8466064563785207074::1708636398::0::1::::<><>::res://Scenes/TextEdit.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png
 mainMenu.gd::GDScript::-1::1707388700::0::1::::<>Node2D<>::
-mainMenu.tscn::PackedScene::8825483887600409415::1708636221::0::1::::<><>::res://Scenes/mainMenu.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>res://you honor.png<>uid://diu0xkscl0bfn::::res://music/for-elevator-jazz-music-124005.mp3<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://bung3m1f0q2xu::::res://img/da rock dean.png<>uid://db2cw0jcnj8yu::::res://img/1080 rock.png<>uid://b0del777xqa0::::res://img/icon.svg<>uid://1rlsmm81yoee::::res://img/amung us transformation.jpg<>uid://b8hgvdlywpy1l::::res://img/orange ape.jpg<>uid://bo8lceey0cro3::::res://img/sigma dean2.png<>uid://c5l8lq48wb0td::::res://img/pilot.jpeg
+mainMenu.tscn::PackedScene::8825483887600409415::1708636398::0::1::::<><>::res://Scenes/mainMenu.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://lybhuha66qbp::::res://you honor.png<>uid://diu0xkscl0bfn::::res://music/for-elevator-jazz-music-124005.mp3<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://bung3m1f0q2xu::::res://img/da rock dean.png<>uid://db2cw0jcnj8yu::::res://img/1080 rock.png<>uid://b0del777xqa0::::res://img/icon.svg<>uid://1rlsmm81yoee::::res://img/amung us transformation.jpg<>uid://b8hgvdlywpy1l::::res://img/orange ape.jpg<>uid://bo8lceey0cro3::::res://img/sigma dean2.png<>uid://c5l8lq48wb0td::::res://img/pilot.jpeg
 test_level.tscn::PackedScene::1728691544179147654::1701775446::0::1::::<><>::uid://cexex4yie7obb
 TextEdit.gd::GDScript::-1::1708609279::0::1::::<>TextEdit<>::
 tutorial.gd::GDScript::-1::1707608874::0::1::::<>Node2D<>::
-tutorial.tscn::PackedScene::471698274950379237::1708636221::0::1::::<><>::res://Scenes/tutorial.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn<>uid://nxixuukadc3u::::res://enemy/level_complete.tscn
+tutorial.tscn::PackedScene::471698274950379237::1708636398::0::1::::<><>::res://Scenes/tutorial.gd<>uid://cexex4yie7obb::::res://Asset Pack/Tilemap/Basic Tilemap.png<>uid://cr027qdmqoyus::::res://Asset Pack/Tilemap/160x160 background tilemap.png<>uid://dhu4ikmaqqcuc::::res://Character/player.tscn<>uid://di1q0naj5lgbi::::res://enemy/enemy.tscn<>uid://nxixuukadc3u::::res://enemy/level_complete.tscn
