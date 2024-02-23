@@ -207,27 +207,27 @@ position = Vector2(580, 396)
 texture = ExtResource("10_2f5e4")
 
 [node name="1080Rock" type="Sprite2D" parent="."]
-position = Vector2(377, 439)
+position = Vector2(379, 439)
 scale = Vector2(0.289216, 0.289216)
 texture = ExtResource("9_4ykrk")
 
 [node name="AmungUsTransformation" type="Sprite2D" parent="."]
-position = Vector2(777, 483)
+position = Vector2(762, 394)
 scale = Vector2(0.504608, 0.504608)
 texture = ExtResource("10_c134r")
 
 [node name="OrangeApe" type="Sprite2D" parent="."]
-position = Vector2(785.25, 248.68)
-scale = Vector2(0.136574, 0.136574)
+position = Vector2(770.25, 156.708)
+scale = Vector2(0.169907, 0.169907)
 texture = ExtResource("11_skok8")
 
 [node name="Pilot" type="Sprite2D" parent="."]
-position = Vector2(363, 162)
-scale = Vector2(0.213402, 0.213402)
+position = Vector2(373.75, 156.75)
+scale = Vector2(0.202577, 0.202577)
 texture = ExtResource("12_f3uq1")
 
 [node name="SigmaDean2" type="Sprite2D" parent="."]
-position = Vector2(131, 283)
+position = Vector2(136, 283)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("12_5ynxd")
 
