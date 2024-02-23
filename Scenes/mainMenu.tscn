@@ -227,7 +227,7 @@ scale = Vector2(0.202577, 0.202577)
 texture = ExtResource("12_f3uq1")
 
 [node name="SigmaDean2" type="Sprite2D" parent="."]
-position = Vector2(136, 283)
+position = Vector2(136, 252)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("12_5ynxd")
 
