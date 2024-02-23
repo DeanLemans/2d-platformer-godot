@@ -1,4 +1,10 @@
 # 2d-platformer-godot
+
+https://github.com/DeanLemans/2d-platformer-godot/releases
+
+- working on
+	- tilemap improvement
+	- FIXING BUGS
 - todo
 	- if level complete. give text above the level that is completed.
 	- make text smaller
@@ -10,6 +16,7 @@
 	- wallJump
 	- edgeGrab
 	- create better enemy sprite.
+	- create moving platforms
 	-
 - far todo
 	- more enemy animation(death, kills player)
@@ -20,11 +27,7 @@
 		- 3 hit point in whole game
 		- 2 hit points per level
 		- (brainstorm save system)
- 		- 
 	- multiple difficulties
--
-- working on
-	- tilemap improvement
 -
 - user feedback
 	- Sander:
@@ -35,7 +38,10 @@
 		- meer variatie in vijanden en een meer passend kleuren patroon voor het speelbare character
 		-
 	- Mink:
-		- Main menu is bugged, kan de tekst gedeeltelijk weghalen en bewerken. De glow versie is bugged. Kon niet dood gaan en enemy kon niet dood. Uniek main menu design. De 	tutorial boxes kun je ook aanklikken, fixen door muis uit te zetten als je de game speelt. Paar spelfoutjes. De tileset is leuk, ik zou een snellere restart maken voor de levels ipv terug naar het menu. Leuke game, health system misschien killable enemies en de mensen die willen quitten niet uitschelden. Misschien duidelijker waar je naartoe moet./
+		- Main menu is bugged, kan de tekst gedeeltelijk weghalen en bewerken. De glow versie is bugged.
+		- Kon niet dood gaan en enemy kon niet dood. Uniek main menu design. De tutorial boxes kun je ook aanklikken, fixen door muis uit te zetten als je de game speelt. Paar spelfoutjes.
+		- De tileset is leuk, ik zou een snellere restart maken voor de levels ipv terug naar het menu. Leuke game, health system misschien killable enemies en de mensen die willen quitten niet uitschelden.
+		- Misschien duidelijker waar je naartoe moet.
 		-
 	- Yannick:
 		- Hoofdletters, grammatica/spelling checken
@@ -44,6 +50,7 @@
 		- Walljumps
 		- Variatie in textures
 		- Trail achter lopen
+		-
 	- Duke:
 		- mijn gezicht uit de main menu halen
 		- het menu is breaken. je kan er in typen
@@ -68,7 +75,7 @@
 		- geef aan dat trump een enemie is want het is momenteel niet duidelijk dat het een enemie is tot je hem aanraakt.
 		- de moeilijkheids overgang is groot.
 		- de muziek misschien wat meer bij de game laten passen.
-  		- 
+		-
 	- Niek:
 		- jump smoother (jump faster; it feels like the jump has a delay)
 		- more level (but you knew that :))
@@ -78,6 +85,10 @@
 		- less sensitive movement.
 		- jump could be better.
 		- maybe make it less just a parkour game and more variation then just jumping and running.
+	- Cassie:
+		- vijand is weg.
+		- WIP.
+		-
 -
 -
 - done shine
@@ -85,6 +96,8 @@
 	- add background too everything
 	- add borders too everything
 	- fixed the unclear pixels. https://www.reddit.com/r/godot/comments/swnucp/how_do_i_get_clean_pixel_art_in_godot_4/
+	- editing in text box. fixed
+	- level 1/tutorial. done
 -
 - done ambitie
 	- double jump animation
