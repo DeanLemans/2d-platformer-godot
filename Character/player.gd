@@ -1,6 +1,10 @@
 extends CharacterBody2D
 # template did not make myself.
 # modified it myself too suit my needs
+
+@export var max_wall_slide_Speed = 120
+@export var wall_slide_pushback = 100
+
 @export var speed : float = 200
 @export var jump_velocity : float = -200
 @export var double_jump_velocity : float = -150
@@ -24,19 +28,24 @@ func _physics_process(delta):
 		has_double_jumped = false
 		if in_air == true:
 			land()
-
 		in_air = false
-	# Handle Jump.
+	# wall jump code. WIP
+	if is_on_wall() and Input.is_action_pressed("right"):
+		has_double_jumped = false
+		velocity.y = jump_velocity
+		velocity.x = -wall_slide_pushback
+	if is_on_wall() and Input.is_action_pressed("left"):
+		has_double_jumped = false
+		velocity.y = jump_velocity
+		velocity.x = wall_slide_pushback
+			
 	if Input.is_action_just_pressed("jump"):
-		if is_on_floor():
-			#normal jump from floor
+		if is_on_floor(): #normal jump from floor
 			jump()
 		elif not has_double_jumped:
 			#double jump in air
 			double_jump()
 			
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
 	direction = Input.get_vector("left", "right", "up", "down")
 	
 	if direction.x != 0 && animated_sprite.animation != "land":
@@ -53,6 +62,8 @@ func update_animation():
 		if not is_on_floor():
 			animated_sprite.play("jump_air")
 		else:
+			if is_on_wall():
+				animated_sprite.play("wall_land")
 			if direction.x != 0:
 				animated_sprite.play("walk")
 			else:
@@ -74,7 +85,13 @@ func double_jump():
 	animated_sprite.play("jump_loop")
 	animation_locked = true
 	has_double_jumped = true
+	
+func wall_jump():
+	animated_sprite.play("wall_land")
+	animation_locked = true
+	has_double_jumped = false
 
+		#fix the walljump code
 func land():
 	animated_sprite.play("land")
 	animation_locked = false
