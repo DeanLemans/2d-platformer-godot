@@ -177,6 +177,7 @@ offset_left = 453.0
 offset_top = 280.0
 offset_right = 690.0
 offset_bottom = 325.0
+mouse_filter = 2
 text = "touch the godot logo too win"
 editable = false
 context_menu_enabled = false
@@ -188,10 +189,13 @@ virtual_keyboard_enabled = false
 middle_mouse_paste_enabled = false
 
 [node name="TextEdit" type="TextEdit" parent="."]
-offset_left = 450.0
+offset_left = 455.0
 offset_top = 5.0
-offset_right = 685.0
+offset_right = 690.0
 offset_bottom = 49.0
+tooltip_text = "Yes, its very cool"
+mouse_filter = 2
+mouse_force_pass_scroll_events = false
 text = "Dean's very cool platformer"
 editable = false
 context_menu_enabled = false

@@ -508,7 +508,7 @@ position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
 animation = &"wall_land"
 autoplay = "jump_loop"
-frame_progress = 0.695153
+frame_progress = 0.0925455
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
