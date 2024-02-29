@@ -1,4 +1,4 @@
-[gd_scene load_steps=74 format=3 uid="uid://dhu4ikmaqqcuc"]
+[gd_scene load_steps=78 format=3 uid="uid://dhu4ikmaqqcuc"]
 
 [ext_resource type="Script" path="res://Character/player.gd" id="1_vmu8u"]
 [ext_resource type="Texture2D" uid="uid://go13c0ceg0ir" path="res://Asset Pack/Sprite Sheets/Player/Character Idle 48x48.png" id="1_x3mr8"]
@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cu3gogxojrug3" path="res://Asset Pack/Sprite Sheets/Air Spin/player air spin 48x48.png" id="3_hpniu"]
 [ext_resource type="Texture2D" uid="uid://tbunsys8mub5" path="res://Asset Pack/Sprite Sheets/Player/player land 48x48.png" id="3_m1132"]
 [ext_resource type="Texture2D" uid="uid://0puhw6oel88m" path="res://Asset Pack/Sprite Sheets/Player/run cycle 48x48.png" id="6_2yvio"]
-[ext_resource type="Texture2D" uid="uid://dqa3a572vqivt" path="res://Asset Pack/Sprite Sheets/Player/wall land 48x48.png" id="7_4hm0b"]
+[ext_resource type="Texture2D" uid="uid://basov2anivx04" path="res://Asset Pack/Sprite Sheets/Push/player push 48x48.png" id="7_rmum2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nqx4t"]
 atlas = ExtResource("1_x3mr8")
@@ -240,29 +240,45 @@ region = Rect2(288, 0, 48, 48)
 atlas = ExtResource("6_2yvio")
 region = Rect2(336, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ae2hr"]
-atlas = ExtResource("7_4hm0b")
+[sub_resource type="AtlasTexture" id="AtlasTexture_1r4ys"]
+atlas = ExtResource("7_rmum2")
 region = Rect2(0, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_pj240"]
-atlas = ExtResource("7_4hm0b")
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5mob"]
+atlas = ExtResource("7_rmum2")
 region = Rect2(48, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_2olkb"]
-atlas = ExtResource("7_4hm0b")
+[sub_resource type="AtlasTexture" id="AtlasTexture_pfoxr"]
+atlas = ExtResource("7_rmum2")
 region = Rect2(96, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_lwkne"]
-atlas = ExtResource("7_4hm0b")
+[sub_resource type="AtlasTexture" id="AtlasTexture_24ana"]
+atlas = ExtResource("7_rmum2")
 region = Rect2(144, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_hljtr"]
-atlas = ExtResource("7_4hm0b")
+[sub_resource type="AtlasTexture" id="AtlasTexture_dfmtu"]
+atlas = ExtResource("7_rmum2")
 region = Rect2(192, 0, 48, 48)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_v1ch5"]
-atlas = ExtResource("7_4hm0b")
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxlg4"]
+atlas = ExtResource("7_rmum2")
 region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25r5q"]
+atlas = ExtResource("7_rmum2")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_648bf"]
+atlas = ExtResource("7_rmum2")
+region = Rect2(336, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4485f"]
+atlas = ExtResource("7_rmum2")
+region = Rect2(384, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_awi02"]
+atlas = ExtResource("7_rmum2")
+region = Rect2(432, 0, 48, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_trm4p"]
 animations = [{
@@ -472,22 +488,34 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ae2hr")
+"texture": SubResource("AtlasTexture_1r4ys")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_pj240")
+"texture": SubResource("AtlasTexture_f5mob")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_2olkb")
+"texture": SubResource("AtlasTexture_pfoxr")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_lwkne")
+"texture": SubResource("AtlasTexture_24ana")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_hljtr")
+"texture": SubResource("AtlasTexture_dfmtu")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_v1ch5")
+"texture": SubResource("AtlasTexture_gxlg4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25r5q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_648bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4485f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_awi02")
 }],
 "loop": true,
 "name": &"wall_land",
@@ -495,7 +523,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jnbaw"]
-radius = 7.0
+radius = 9.0
 height = 30.5
 
 [node name="Player" type="CharacterBody2D" groups=["Player", "player"]]
@@ -506,9 +534,8 @@ double_jump_velocity = -195.0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-24, -23.5)
 sprite_frames = SubResource("SpriteFrames_trm4p")
-animation = &"wall_land"
+animation = &"land"
 autoplay = "jump_loop"
-frame_progress = 0.695153
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

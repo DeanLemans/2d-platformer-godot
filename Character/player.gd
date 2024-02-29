@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
-const wall_slide_pushback = 300
-const wall_slide_power = -200
+#const wall_slide_pushback = 300
+#const wall_slide_power = -200
 
 @export var speed : float = 200
 @export var jump_velocity : float = -200
@@ -31,19 +31,17 @@ func _physics_process(delta):
 				jump()
 			elif not has_double_jumped:
 				double_jump() #double jump in air
-				
-	if Input.is_action_just_pressed("jump"):
-		if is_on_wall():
-			print_debug("hoi")
-		if is_on_wall() and Input.is_action_pressed("right"):
-			velocity.y = wall_slide_power
-			velocity.x = -wall_slide_pushback
-		if is_on_wall() and Input.is_action_pressed("left"):
-			velocity.y = wall_slide_power
-			velocity.x = wall_slide_pushback
-			
-	
-			
+
+	#if Input.is_action_just_pressed("jump"): broken walljump code
+		#if is_on_wall():
+			#print_debug("walljump function test")
+		#if is_on_wall() and Input.is_action_pressed("right"):
+			#velocity.y = wall_slide_power
+			#velocity.x = -wall_slide_pushback
+		#if is_on_wall() and Input.is_action_pressed("left"):
+			#velocity.y = wall_slide_power
+			#velocity.x = wall_slide_pushback
+
 	direction = Input.get_vector("left", "right", "up", "down")
 	
 	if direction.x != 0 && animated_sprite.animation != "land":
@@ -64,7 +62,7 @@ func update_animation():
 				animated_sprite.play("walk")
 			else:
 				animated_sprite.play("idle")
-				
+
 func update_facing_direction():
 	if direction.x > 0:
 		animated_sprite.flip_h = false
@@ -81,13 +79,13 @@ func double_jump():
 	animated_sprite.play("jump_loop")
 	animation_locked = true
 	has_double_jumped = true
-	
-func wall_jump():
-	animated_sprite.play("wall_land")
-	animation_locked = true
-	has_double_jumped = false
 
-		#fix the walljump code
+#func wall_jump(): broken walljump animation function
+	#animated_sprite.play("wall_land")
+	#animation_locked = true
+	#has_double_jumped = false
+	#print_debug("wall animtion test")
+
 func land():
 	animated_sprite.play("land")
 	animation_locked = false
