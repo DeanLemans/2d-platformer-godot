@@ -1,6 +1,7 @@
 # 2d-platformer-godot
 
-https://github.com/DeanLemans/2d-platformer-godot/releases
+- web version: https://deanlemans.itch.io/2d-platformer-godot
+- download: https://github.com/DeanLemans/2d-platformer-godot/releases
 
 - working on
 	- tilemap improvement
