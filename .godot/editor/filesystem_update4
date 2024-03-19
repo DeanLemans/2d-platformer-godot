@@ -1,10 +1,10 @@
-res://Scenes/tutorial.tscn
+res://Scenes/level_2.tscn
 res://Scenes/prefabs.tres
 res://Scenes/lost.tscn
 res://enemy/enemy.tscn
 res://Character/player.tscn
 res://Scenes/ambitieLevel.tscn
 res://Scenes/level_selection.tscn
-res://Scenes/level_2.tscn
+res://Scenes/tutorial.tscn
 res://Scenes/level_3.tscn
 res://Scenes/mainMenu.tscn

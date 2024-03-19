@@ -1,3 +1,6 @@
+PointLight2D
+LightOccluder2D
+DirectionalLight2D
 TileMap
 Camera2D
 Button

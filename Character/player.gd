@@ -1,12 +1,13 @@
 extends CharacterBody2D
 
-#const wall_slide_pushback = 300
-#const wall_slide_power = -200
-
+var face_direction : bool = 1
+var x_dir : bool = 1
 @export var speed : float = 200
 @export var jump_velocity : float = -200
 @export var double_jump_velocity : float = -150
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
+
+
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var has_double_jumped : bool = false
@@ -14,9 +15,12 @@ var animation_locked : bool = false
 var direction : Vector2 = Vector2.ZERO
 var in_air : bool = false
 var is_running : bool = false
+var is_jumping : bool = false
+var is_in_air = is_on_floor()
 
 func _physics_process(delta):
 	# Add the gravity.
+
 	if not is_on_floor():
 		velocity.y += gravity * delta
 		in_air = true
@@ -25,22 +29,12 @@ func _physics_process(delta):
 		if in_air == true:
 			land()
 		in_air = false
-	# wall jump code. WIP
-	if Input.is_action_just_pressed("jump"):
-			if is_on_floor(): #normal jump from floor
-				jump()
-			elif not has_double_jumped:
-				double_jump() #double jump in air
 
-	#if Input.is_action_just_pressed("jump"): broken walljump code
-		#if is_on_wall():
-			#print_debug("walljump function test")
-		#if is_on_wall() and Input.is_action_pressed("right"):
-			#velocity.y = wall_slide_power
-			#velocity.x = -wall_slide_pushback
-		#if is_on_wall() and Input.is_action_pressed("left"):
-			#velocity.y = wall_slide_power
-			#velocity.x = wall_slide_pushback
+	if Input.is_action_just_pressed("jump"):
+		if is_on_floor(): #normal jump from floor
+			jump()
+		elif not has_double_jumped:
+			double_jump() #double jump in air
 
 	direction = Input.get_vector("left", "right", "up", "down")
 	
@@ -51,8 +45,8 @@ func _physics_process(delta):
 
 	move_and_slide()
 	update_animation()
-	update_facing_direction()
-	
+	set_direction()
+
 func update_animation():
 	if not animation_locked:
 		if not is_on_floor():
@@ -63,7 +57,7 @@ func update_animation():
 			else:
 				animated_sprite.play("idle")
 
-func update_facing_direction():
+func set_direction():
 	if direction.x > 0:
 		animated_sprite.flip_h = false
 	elif direction.x < 0:
@@ -79,12 +73,6 @@ func double_jump():
 	animated_sprite.play("jump_loop")
 	animation_locked = true
 	has_double_jumped = true
-
-#func wall_jump(): broken walljump animation function
-	#animated_sprite.play("wall_land")
-	#animation_locked = true
-	#has_double_jumped = false
-	#print_debug("wall animtion test")
 
 func land():
 	animated_sprite.play("land")

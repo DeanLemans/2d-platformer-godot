@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=16 format=3 uid="uid://bn4p181ue1q7c"]
+[gd_resource type="TileSet" load_steps=20 format=3 uid="uid://bn4p181ue1q7c"]
 
 [ext_resource type="Texture2D" uid="uid://cexex4yie7obb" path="res://Asset Pack/Tilemap/Basic Tilemap.png" id="1_ixtv5"]
 [ext_resource type="Texture2D" uid="uid://cr027qdmqoyus" path="res://Asset Pack/Tilemap/160x160 background tilemap.png" id="2_mwpek"]
@@ -11,6 +11,18 @@ tile_data = PackedInt32Array(0, 0, 0, 65536, 0, 1, 131072, 0, 2, 196608, 0, 3, 1
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_3jent"]
 tile_data = PackedInt32Array(0, 262144, 7, 1, 327680, 5, 2, 5, 1)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_ajok5"]
+tile_data = PackedInt32Array(0, 131072, 4, 65536, 131072, 5, 131072, 131072, 6, 196608, 131072, 7, 1, 196608, 4, 65537, 196608, 5, 131073, 196608, 6, 196609, 196608, 7)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_noe3x"]
+tile_data = PackedInt32Array(0, 0, 0, 65536, 0, 3, 1, 196608, 0, 65537, 196608, 3)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_w2r7l"]
+tile_data = PackedInt32Array(0, 196608, 3, 65536, 196608, 0, 1, 0, 3, 65537, 0, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_prt3j"]
+tile_data = PackedInt32Array(0, 0, 4, 65536, 0, 9, 1, 327680, 4, 65537, 327680, 9)
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_hewqr"]
 tile_data = PackedInt32Array(0, 0, 4, 65536, 0, 6, 131072, 0, 7, 196608, 0, 9, 1, 131072, 4, 65537, 65536, 5, 131073, 65536, 8, 196609, 131072, 9, 2, 196608, 4, 65538, 262144, 5, 131074, 262144, 8, 196610, 196608, 9, 3, 327680, 4, 65539, 327680, 6, 131075, 327680, 7, 196611, 327680, 9)
@@ -413,3 +425,7 @@ pattern_7 = SubResource("TileMapPattern_sbw6h")
 pattern_8 = SubResource("TileMapPattern_6avbb")
 pattern_9 = SubResource("TileMapPattern_m476f")
 pattern_10 = SubResource("TileMapPattern_3jent")
+pattern_11 = SubResource("TileMapPattern_ajok5")
+pattern_12 = SubResource("TileMapPattern_noe3x")
+pattern_13 = SubResource("TileMapPattern_w2r7l")
+pattern_14 = SubResource("TileMapPattern_prt3j")
